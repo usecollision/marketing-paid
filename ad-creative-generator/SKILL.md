@@ -125,6 +125,41 @@ Organize creatives into a testing framework:
 
 **Gate:** Testing plan with clear hypotheses, variants, and decision criteria.
 
+## Practitioner Grounding
+
+- **Dara Denney** — creative is the highest-leverage paid variable; test creatives, not audiences; budget-scaled supply rate (1–3 new creatives/week at $5k–30k/mo, cap ~10 live); iterate winners 10 ways. (EMPIRICAL, T2)
+- **Nick Shackelford** — "creative is the new targeting"; structure testing budget between proven winners and fresh creative; production volume (50+ videos/day at his agency) is the scaling constraint. (HEURISTIC, T2)
+- **Alex Hormozi** — angle/claim before asset; ~80% of resources reskin winners; hook-splice proven first-3s onto new bodies for 10–50x yield. (HEURISTIC, T2/T3)
+- **Eugene Schwartz** — claim type must match market sophistication: direct → differentiated → mechanism → named mechanism → identity. (FRAMEWORK, T2)
+- **hawky/AdGenz/AdManage 2026 operator consensus** — angle matrix (pains×proofs, scored on evidence/saturation/proof); 2–4 genuinely distinct concepts/week at meaningful spend; 3–5 variants per batch; one variable per test, offer last; rotate every 7–10 days. (HEURISTIC, T3)
+- **AppsFlyer** — ad fatigue (one ad) vs creative fatigue (same KIND of ad): different remedies. (EMPIRICAL, T2)
+
+## Decision Rules
+
+1. IF no angle evidence exists THEN build a pains×desires × proof-points matrix and scan competitor ad libraries (Meta Ad Library / Google Transparency) for saturation BEFORE producing assets (hawky, FRAMEWORK, T3).
+2. IF budget is $5k–30k/mo THEN generate 1–3 distinct creatives/week and cap ~10 live; scale supply only with budget (Denney, EMPIRICAL, T2).
+3. IF market sophistication is stage 3+ THEN lead claims with mechanism/proof, not outcome promises; stage 1–2 markets take direct claims (Schwartz, FRAMEWORK, T2).
+4. IF testing THEN one variable per batch (hook → format → angle → offer last), equal budget/audience, ≥1–2x target CPA or 3–7 days before any verdict (AdGenz/hawky, HEURISTIC, T3).
+5. IF a creative wins THEN iterate/reskin it 10 ways before testing net-new concepts (Denney/Hormozi, HEURISTIC, T2).
+6. IF CTR/CPA decays as frequency rises THEN rotate in fresh variants (7–10 day cadence) before touching targeting or budget (Denney/AdManage/AppsFlyer, HEURISTIC, T2).
+7. IF producing UGC-style creative THEN brief angle + emotional beats, not full scripts (Pixis, HEURISTIC, T3).
+
+## Metrics
+
+- Primary: hook rate/thumb-stop (30–50% = good on Meta, T3), 3s hold %, CTR, CPA per creative; creative-level ROAS.
+- Guardrails: live-creative cap vs budget; supply rate (distinct concepts/week); fatigue curve (frequency × CPA trend); taxonomy coverage (every creative tagged `[Platform]-[Campaign]-[Angle]-[Format]-[Version]` so winners compound into a library).
+- Timebox: judge at 1–2x target CPA or 3–7 days, whichever comes last; re-measure on rotation (7–10 days) and on any frequency spike.
+
+## Sources
+
+1. Denney panel | domains/messaging-longtail/dara-denney.md (practitioner-intelligence) | tier 1 | 2026-08-15
+2. hawky.ai Creative Strategy for Performance Marketing 2026 | https://hawky.ai/blog/creative-strategy-performance-marketing | tier 3 | 2026-08-15
+3. AdGenz Facebook Ad Creative Testing 2026 | https://www.adgenz.ai/blog/facebook-ad-creative-testing-framework-2026 | tier 3 | 2026-08-15
+4. Shackelford — Open Residency Ep.08 | https://openresidency.com/nick-shackelford | tier 2 | 2026-08-15
+5. Hormozi hook/reskin doctrine | usegavel.com/alex-hormozi/hook-meat-cta + github.com/claes-work/alex-hormozi-clone | tier 2/3 | 2026-08-15
+6. AppsFlyer — creative fatigue vs ad fatigue | https://www.appsflyer.com/blog/tips-strategy/creative-fatigue | tier 2 | 2026-08-15
+7. Schwartz sophistication (messaging.md exegesis) | practitioner-intelligence/syntheses/messaging.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Creative Scoring
@@ -142,3 +177,7 @@ Organize creatives into a testing framework:
 - No clear hook in first 3 seconds of video (you lose 50% by second 3)
 - Feature-heavy instead of outcome/emotion-driven
 - Not enough variants to achieve statistical significance in testing
+- Testing variations instead of concepts — ten crops of the same ad is one test; Meta clusters similar creatives (hawky, HEURISTIC, T3)
+- Leading with features instead of the buyer's pain — "almost nobody scrolls past a feature list" (Hormozi, HEURISTIC, T2)
+- Ignoring creative fatigue (same KIND of ad feeling repetitive) while chasing ad fatigue — frequency caps + supply rotation, not just new targeting (AppsFlyer/Denney, EMPIRICAL, T2)
+- No creative taxonomy — untagged ads can't compound into a winning-element library (ORCA/scalable.ad, HEURISTIC, T3)

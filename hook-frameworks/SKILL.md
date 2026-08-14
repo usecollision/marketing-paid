@@ -91,6 +91,41 @@ Top 3 go into production/testing.
 
 **Gate:** Hooks ranked with clear winners for each platform/format.
 
+## Practitioner Grounding
+
+- **Alex Hormozi** — Hook-Meat-CTA: the hook names the buyer's pain in 3–4 words; "failed ads die at the hook, not the offer"; write 50 hooks before one ad; specificity beats cleverness. (HEURISTIC, T2)
+- **Eugene Schwartz** — hook type must match awareness level: unaware → problem statement; problem-aware → pain callout; solution-aware → mechanism/contrast; most-aware → offer/direct close. (FRAMEWORK, T2)
+- **Dara Denney** — conversational hooks that take a second to process ("Wait why is this…", "No because…") beat polished openings; 1.5s rule: the first 1.5 seconds decide retention. (EMPIRICAL/HEURISTIC, T2)
+- **Short-form retention research (social.md)** — 50–70% of viewers leave in the first 1–2s; layered hooks (visual+audio+text) ~3x hold; core message in first 3s ≈ +60% total retention. (EMPIRICAL, T2)
+- **vexub H-A-P** — every hook = pattern interrupt → audience call-out → promise; stack 2+ triggers; mirror the spoken hook in on-screen captions. (HEURISTIC, T3)
+- **ORCA** — thumb-stop 30–50% is good on Meta; hook (0–3s) then context (3–5s, "if you run an ecommerce store…") then value. (HEURISTIC, T3)
+
+## Decision Rules
+
+1. IF the audience is unaware of the problem THEN open with the problem/frustration itself; IF problem-aware THEN name the specific pain; IF solution-aware THEN mechanism or contrast hook; IF most-aware (retargeting) THEN offer/close hook (Schwartz, FRAMEWORK, T2).
+2. IF writing any ad hook THEN open with the buyer's pain in ≤4 words and never lead with a feature list (Hormozi, HEURISTIC, T2).
+3. IF you need hooks THEN generate 50 options per angle and ship the top 3 — hook quality is a volume game (Hormozi, HEURISTIC, T2).
+4. IF the format is short-form video THEN layer visual + audio + text hooks and caption-mirror the spoken line (social.md/vexub, EMPIRICAL/HEURISTIC, T2/T3).
+5. IF retention drops hardest at ~1s THEN rebuild the pattern interrupt; IF at ~3s THEN strengthen the promise (vexub, HEURISTIC, T3).
+6. IF the audience is new/cold THEN use conversational, problem-agitating hooks that take a second to process; IF warm/retargeting THEN lead with offer (Denney, HEURISTIC, T2).
+7. IF a hook wins in testing THEN splice its first 3 seconds onto new bodies (10–50x creative yield) before inventing new hooks (Hormozi, TACTIC, T2/T3).
+
+## Metrics
+
+- Primary: thumb-stop / 3s watch rate (target 30–50% on Meta, T3), 15s watch rate, hook-level CTR and CPA.
+- Guardrails: retention drop-point graph (1s vs 3s diagnosis); share of hooks that beat control per angle; platform-format fit (TikTok ~1s spoken+text vs LinkedIn first-line vs YouTube first-5s).
+- Timebox: judge after 1–2x target CPA or 3–7 days; re-test hooks on every 7–10 day rotation and on any frequency-driven CTR decay.
+
+## Sources
+
+1. Gavel — Hormozi Hook-Meat-CTA (YouTube Ds_Qp2U5I8U @03:36) | https://usegavel.com/alex-hormozi/hook-meat-cta | tier 2 | 2026-08-15
+2. Hormozi reskin/splicing doctrine | https://github.com/claes-work/alex-hormozi-clone/wiki/topics/marketing/paid-ads.md | tier 3 | 2026-08-15
+3. Schwartz awareness/sophistication (messaging.md exegesis) | practitioner-intelligence/syntheses/messaging.md | tier 1 | 2026-08-15
+4. Denney panel + short-form-hook-retention | practitioner-intelligence/domains/messaging-longtail/ | tier 1 | 2026-08-15
+5. vexub — Hook Formula (H-A-P, 40 formulas, scorecard) | https://vexub.com/blog/hook-formula | tier 3 | 2026-08-15
+6. ORCA — Video Ad Hooks That Convert | https://www.goorca.ai/blog/video_ad_hooks_guide | tier 3 | 2026-08-15
+7. Social synthesis (1.5s/layered hooks) | practitioner-intelligence/syntheses/social.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes
@@ -99,3 +134,7 @@ Top 3 go into production/testing.
 - Generic hooks that could apply to any product
 - Not matching platform energy (LinkedIn tone on TikTok)
 - Burying the hook (should be first word/frame, not second sentence)
+- Opening with a feature list — "almost nobody scrolls past a feature list" (Hormozi, HEURISTIC, T2)
+- Ignoring the audience's awareness level — one hook for cold and retargeting audiences is a category error (Schwartz, FRAMEWORK, T2)
+- Hooks without layered delivery on short-form video (spoken only, no text overlay) — audio+visual+text hooks hold ~3x longer (social.md, EMPIRICAL, T2)
+- Judging hooks before minimum spend — 1–2x target CPA or 3–7 days, not first-day CTR (AdGenz/hawky, HEURISTIC, T3)

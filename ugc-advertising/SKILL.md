@@ -116,6 +116,41 @@ Invoke when:
 
 **Gate:** Volume plan tied to testing cadence; fatigue monitoring in place.
 
+## Practitioner Grounding
+
+- **Chase Chappell** — TikTok/ecom UGC pioneer: UGC is the volume engine for native-feel paid creative; briefs + automation keep supply ahead of fatigue. (TACTIC, T3 — course-promotional sources)
+- **Moburst** — "Invest in the brief, not just the creator": the brief is the single most important UGC success factor; creator fit over follower count; UGC wins prospecting, systems beat one-time drops. (HEURISTIC, T2)
+- **ATTN Agency** — brief anatomy from 2,000+ creator relationships; skincare client +340% performance after brief restructure; vague AND over-restrictive briefs both fail. (EMPIRICAL, T2)
+- **InfluenceFlow** — detailed briefs = 73% faster completions; 400–1,200 words, <5 min read; red-flag guardrails beat vague tone words; reference videos; revision limits upfront. (EMPIRICAL/HEURISTIC, T2)
+- **SideShift** — compensation + usage rights belong IN the brief; strong briefs define deliverables, rights windows, and ownership to enable repurposing. (HEURISTIC, T2/T3)
+- **Pixis/Adroom** — brief the angle and the emotional beat, not a scripted first line; scripted UGC loses the native-feed quality. (HEURISTIC, T3)
+
+## Decision Rules
+
+1. IF launching or restarting a UGC program THEN write the full brief (audience, objective, product + honest limitations, pains, 2–3 angles with example hooks, reference videos, red flags, deliverables, revisions, compensation, rights) BEFORE sourcing creators (Moburst/ATTN, HEURISTIC, T2).
+2. IF the goal is authenticity-driven performance THEN brief angle + beats + 3–5 example phrases, never a full script; IF compliance/demo-critical THEN provide the script with mandatory claims rules (Pixis/InfluenceFlow, HEURISTIC, T2/T3).
+3. IF choosing creators THEN rank by persona fit + audience overlap + past-work quality, not follower count (Moburst, HEURISTIC, T2); keep a 5–10 creator roster of proven repeats (skill consensus, HEURISTIC).
+4. IF the brief exceeds 2 pages or a 5-minute read THEN cut it — compliance and output quality drop with complexity (ATTN/InfluenceFlow, EMPIRICAL/HEURISTIC, T2).
+5. IF footage comes back off-brief THEN fix the brief (and QA checklist) before ordering more volume — more creators ≠ better output (Moburst/ATTN, EMPIRICAL, T2).
+6. IF testing UGC vs studio THEN match angle, budget, and audience; expect UGC to win cold/prospecting and studio to win retargeting/brand search — verify per account (hawky + skill consensus, HEURISTIC, T2).
+7. IF rights expire or scope expands (new platform/channel) THEN re-license before launching — organic permission is not ad permission (skill consensus + SideShift, HEURISTIC, T2).
+
+## Metrics
+
+- Primary: hook rate/thumb-stop (target >30% at 3s, T3), CTR, CPA, ROAS vs control (20%+ lift with fresh creative is a directional benchmark, T3); completion rate.
+- Program guardrails: brief-to-approved-asset turnaround (days, not weeks); QA pass rate (compliance %); supply rate vs testing cadence (batch 10–20 videos per angle wave); % of winning creative traceable to a brief element; rights-expiry calendar.
+- Timebox: judge each wave after 1–2x target CPA or 3–7 days; re-measure UGC share of spend monthly and on fatigue signals.
+
+## Sources
+
+1. Moburst — UGC Best Practices in 2026 | https://www.moburst.com/ugc-best-practices-in-2026-what-the-data-actually-says-about-content-that-converts | tier 2 | 2026-08-15
+2. ATTN Agency — Creative Brief Template for UGC Creators (+340% case) | https://www.attnagency.com/blog/creative-brief-for-ugc-creators | tier 2 | 2026-08-15
+3. InfluenceFlow — UGC Creator Brief Template 2026 Guide (73%, word counts, red flags, revisions) | https://influenceflow.io/resources/ugc-creator-brief-template-the-complete-2026-guide-for-creators-brands/ | tier 2 | 2026-08-15
+4. SideShift — How to Write a UGC Creative Brief That Gets Results | https://sideshift.app/blog/ugc-creative-brief | tier 3 | 2026-08-15
+5. Pixis/Adroom — Ad Creative Brief Template (UGC hook-angle note) | https://pixis.ai/blog/ad-creative-brief-template-how-to-turn-one-winning-ad-into-a-full-rotation | tier 3 | 2026-08-15
+6. Chase Chappell — TikTok Ads/UGC content | https://www.chasechappell.com + https://www.tiktok.com/@chase_chappell | tier 3 (promotional) | 2026-08-15
+7. Creative long-tail synthesis (UGC section) | practitioner-intelligence/syntheses/creative-longtail.md | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes
@@ -126,3 +161,7 @@ Invoke when:
 - Ignoring rights expiry - creative dies mid-flight when the window lapses
 - Comparing UGC vs studio on unmatched budgets or audiences
 - No QA checklist - non-compliant or broken videos go live
+- Vague briefs ("make it authentic!") OR over-restrictive briefs (17 bullet points) — both kill output quality (ATTN, EMPIRICAL, T2)
+- Full scripts for authenticity-driven UGC — scripted UGC loses the native-feed quality that makes it work (Pixis, HEURISTIC, T3)
+- Judging UGC before minimum spend — 1–2x target CPA or 3–7 days, matched conditions vs control (AdGenz/hawky, HEURISTIC, T3)
+- Volume without brief iteration — more creators with the same broken brief just scales the miss (Moburst, EMPIRICAL, T2)
