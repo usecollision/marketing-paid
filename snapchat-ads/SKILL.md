@@ -1,0 +1,125 @@
+---
+name: snapchat-ads
+category: paid
+description: Launch Snapchat Ads for young audiences with AR Lens creative, full-screen ad formats, and separate ecommerce and brand campaign playbooks.
+triggers:
+  - "Snapchat Ads"
+  - "Snap ad campaign"
+  - "AR Lens ads"
+  - "Snapchat ecommerce"
+  - "Gen Z advertising"
+  - "advertise on Snapchat"
+  - "Snapchat audience targeting"
+inputs:
+  - product_context
+  - icp
+  - age_data
+  - creative_assets
+  - budget
+  - conversion_data
+outputs:
+  - channel_fit_assessment
+  - campaign_structure
+  - ad_format_plan
+  - lens_creative_briefs
+  - targeting_plan
+  - measurement_plan
+related_skills:
+  - paid-strategy
+  - tiktok-ads
+  - ad-creative-generator
+  - hook-frameworks
+  - creative-testing
+  - media-planning
+required_context:
+  - .context/product-marketing.md
+allowed_tools:
+  - none
+version: 1.0.0
+---
+
+## When to Use
+
+Invoke when:
+- Reaching a 13-34 demographic at scale, especially under-25 (heuristic - verify current platform demographics before planning)
+- Launching AR Lens experiences for brand engagement
+- Running ecommerce campaigns for Gen Z-focused DTC products
+- Building brand campaigns where immersive, full-screen creative matters
+- Testing Snapchat as a cheaper complement to TikTok/Meta for young audiences
+- Activating around moments (events, launches, campus life)
+
+## Workflow
+
+### Step 1: Channel Fit & Audience Reality Check
+- [ ] Verify your ICP's actual presence - Snapchat's core skews young, toward under-25 in many markets (check current platform data rather than assuming)
+- [ ] Decide the job - Snapchat is stronger for brand engagement and cheap reach than for mature direct response (heuristic - validate per vertical)
+- [ ] Check creative capacity - Snapchat demands native vertical video and AR; if you can't produce it, the channel won't work
+- [ ] Frame the KPI - engagement, lens plays, video views, or assisted conversions over strict ROAS
+- [ ] Frame the budget - test-and-learn or brand layer, rarely the performance backbone
+
+**Gate:** Fit assessment with audience evidence and creative capacity check.
+
+### Step 2: Ad Formats
+- **Snap Ads** - full-screen vertical video; the core unit
+- **Story Ads** - branded tile in the Discover feed leading to a collection
+- **Collection Ads** - four-product showcase for ecommerce
+- **Commercials** - 6-second, non-skippable, premium placement
+- **AR Lenses** - sponsored filters; the engagement machine
+- **Dynamic Product Ads** - catalog-driven retargeting for ecommerce
+- Default rule - Snap Ads with a 3-second hook for direct response; Lenses for brand engagement
+
+**Gate:** Format per objective; ecommerce accounts have catalog ads planned.
+
+### Step 3: Lens & AR Creative
+- [ ] Design for the camera, not the ad - Lenses are played with, not watched; utility and delight win
+- [ ] Keep interactions instant - a user should get the payoff in 2-3 seconds (heuristic)
+- [ ] Brand subtly - logo inside the Lens experience, not the opening frame
+- [ ] Plan for shareability - Lenses compound through organic shares; measure plays and shares, not clicks
+- [ ] Budget realistically - Lenses cost more to produce; reserve for brand moments or tentpoles, not always-on
+
+**Gate:** Lens concept with interaction design and shareability rationale before production spend.
+
+### Step 4: Targeting & Placement
+- [ ] Age and location - the basic dials; Snapchat age buckets are coarse
+- [ ] Lifestyle categories and Snapchat Life Stages - platform-native interest segments
+- [ ] Lookalikes - from engagers, site visitors, customers
+- [ ] Retargeting - site visitors and video viewers via the Snap Pixel
+- [ ] Keep targeting loose - Snapchat's auction needs volume; heavy layering kills delivery on a smaller platform
+
+**Gate:** Targeting plan per ad set with audience-size estimates.
+
+### Step 5: Ecommerce Playbook
+- [ ] Install the Snap Pixel first - conversions, retargeting, and lookalikes all depend on it
+- [ ] Run Dynamic Product Ads for retargeting once catalog data flows
+- [ ] Creative - UGC-style vertical video with the hook in frame one; native Snapchat energy, not repurposed TV
+- [ ] Start with purchase-optimized Snap Ads, layer Collection Ads for browsing
+- [ ] Expect lower volume than Meta - treat Snapchat as an incremental channel and judge it on marginal CAC (heuristic)
+
+**Gate:** Pixel live, catalog connected, UGC-style creative set produced.
+
+### Step 6: Brand Campaign Playbook
+- [ ] Objective - awareness and engagement, measured by reach, video views, and lens plays
+- [ ] Use Commercials for guaranteed-reach moments; Snap Ads for always-on
+- [ ] Anchor campaigns to Lenses - they are the platform's differentiated brand format
+- [ ] Measure brand lift with Snapchat's brand-lift studies or third-party equivalents
+- [ ] Don't force direct-response KPIs on brand campaigns - agree on the metric before launch
+
+**Gate:** Brand campaign KPI agreed; at least one differentiated Snapchat-native format (Lens or Commercial) in plan.
+
+### Step 7: Measurement & Iteration
+- [ ] Review weekly - hook rates (3-second view-through), engagement, and pixel conversions
+- [ ] Kill creative fast - vertical video fatigue on Snapchat is real; refresh hooks every 1-2 weeks during scaling (heuristic)
+- [ ] Compare against TikTok - same audience band, different algorithm; share learnings, not budgets
+- [ ] Watch placement quality - exclude low-quality content categories for brand safety
+
+**Gate:** Dashboard built; creative refresh cadence scheduled.
+
+## Evaluation & QA
+
+### Common Failure Modes
+- Repurposing TV or horizontal ads - full-screen vertical is non-negotiable
+- Targeting too narrowly on a volume-thin platform
+- Judging brand Lenses on clicks - the format's value is plays and shares
+- Launching ecommerce without the Pixel - flying blind from day one
+- Assuming Snapchat demographics without checking current data
+- Expecting Meta-level purchase volume - measure marginal contribution instead

@@ -21,6 +21,14 @@ Merged from: `marketing-paid` + `marketing-ad-creative` + `marketing-ecommerce` 
 | [media-planning](media-planning/SKILL.md) | paid | Allocate a paid media budget across channels with channel mix design, budget math, and incrementality checks. |
 | [creative-testing](creative-testing/SKILL.md) | ad-creative | Run structured creative tests with volume planning, scoring, fatigue detection, and kill-scale rules. |
 | [performance-reporting](performance-reporting/SKILL.md) | paid | Build cross-platform paid reporting with blended CAC and ROAS, MER, rollup structure, and anomaly diagnosis. |
+| [microsoft-ads](microsoft-ads/SKILL.md) | paid | Build and optimize Microsoft Advertising search campaigns with Google imports, LinkedIn profile targeting, and lower-CPC efficiency plays. |
+| [x-ads](x-ads/SKILL.md) | paid | Plan and run X (Twitter) Ads with promoted post formats, follower-lookalike-keyword targeting, creator co-branding, and B2B-tech plays. |
+| [apple-search-ads](apple-search-ads/SKILL.md) | paid | Run Apple Search Ads for App Store growth with keyword bidding, basic vs advanced campaigns, and TTR-CR optimization loops. |
+| [pinterest-ads](pinterest-ads/SKILL.md) | paid | Plan Pinterest Ads for DTC discovery with pin formats, shopping campaigns, seasonal planning, and interest-and-stage targeting. |
+| [snapchat-ads](snapchat-ads/SKILL.md) | paid | Launch Snapchat Ads for young audiences with AR Lens creative, full-screen formats, and separate ecommerce and brand playbooks. |
+| [quora-ads](quora-ads/SKILL.md) | paid | Run Quora Ads for intent capture with question and topic targeting and B2B lead generation plays. |
+| [native-ads](native-ads/SKILL.md) | paid | Plan native advertising on Taboola and Outbrain with headline-driven creative testing and traffic quality assessment. |
+| [programmatic-ctv](programmatic-ctv/SKILL.md) | paid | Buy programmatic display and CTV with DSP selection, PMP vs open exchange, CTV measurement, and B2B IP targeting. |
 
 ## Depends on
 - `marketing-core` (context, ontology)
@@ -31,4 +39,4 @@ Merged from: `marketing-paid` + `marketing-ad-creative` + `marketing-ecommerce` 
 - `marketing-optimize` (spend → attribution, analytics)
 
 ## Roadmap refs (referenced but not yet built)
-- None — every referenced skill now exists. See marketing-core/capability-catalog.md for planned wave-2 expansion.
+- None — every referenced skill now exists. Wave-2 platform expansion (Aug 2026) delivered: microsoft-ads, x-ads, apple-search-ads, pinterest-ads, snapchat-ads, quora-ads, native-ads, programmatic-ctv. See marketing-core/capability-catalog.md for further planned expansion.
