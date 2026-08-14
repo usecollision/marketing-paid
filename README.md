@@ -31,5 +31,4 @@ Merged from: `marketing-paid` + `marketing-ad-creative` + `marketing-ecommerce` 
 - `marketing-optimize` (spend → attribution, analytics)
 
 ## Roadmap refs (referenced but not yet built)
-- `marketing-optimize/analytics-setup` (referenced by meta-ads)
-- `marketing-optimize/landing-page-optimization` (referenced by meta-ads)
+- None — every referenced skill now exists. See marketing-core/capability-catalog.md for planned wave-2 expansion.
