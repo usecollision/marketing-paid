@@ -29,6 +29,12 @@ Merged from: `marketing-paid` + `marketing-ad-creative` + `marketing-ecommerce` 
 | [quora-ads](quora-ads/SKILL.md) | paid | Run Quora Ads for intent capture with question and topic targeting and B2B lead generation plays. |
 | [native-ads](native-ads/SKILL.md) | paid | Plan native advertising on Taboola and Outbrain with headline-driven creative testing and traffic quality assessment. |
 | [programmatic-ctv](programmatic-ctv/SKILL.md) | paid | Buy programmatic display and CTV with DSP selection, PMP vs open exchange, CTV measurement, and B2B IP targeting. |
+| [spotify-ads](spotify-ads/SKILL.md) | paid | Plan and run Spotify Ads with audio ad formats, music-taste and mood targeting, companion banners, and streaming measurement. |
+| [podcast-newsletter-ads](podcast-newsletter-ads/SKILL.md) | paid | Buy podcast and newsletter sponsorships with host-read vs programmatic decisions, package negotiation, and promo-code measurement. |
+| [marketplace-expansion](marketplace-expansion/SKILL.md) | ecommerce | Expand beyond Shopify across Amazon, Walmart, eBay, Etsy, and Flipkart with per-marketplace listings, fulfillment, and fee economics. |
+| [shopping-feeds](shopping-feeds/SKILL.md) | paid | Build and optimize Google Merchant Center product feeds with feed schema, health checks, title structure, and supplement feeds. |
+| [ugc-advertising](ugc-advertising/SKILL.md) | ad-creative | Run a UGC ad program with creator sourcing, briefing, usage licensing, UGC-vs-studio testing, and volume scaling. |
+| [retail-media](retail-media/SKILL.md) | paid | Plan retail media across Amazon DSP, Walmart Connect, and Instacart with first-party data targeting and incrementality-based measurement. |
 
 ## Depends on
 - `marketing-core` (context, ontology)
@@ -39,4 +45,4 @@ Merged from: `marketing-paid` + `marketing-ad-creative` + `marketing-ecommerce` 
 - `marketing-optimize` (spend → attribution, analytics)
 
 ## Roadmap refs (referenced but not yet built)
-- None — every referenced skill now exists. Wave-2 platform expansion (Aug 2026) delivered: microsoft-ads, x-ads, apple-search-ads, pinterest-ads, snapchat-ads, quora-ads, native-ads, programmatic-ctv. See marketing-core/capability-catalog.md for further planned expansion.
+- None — every referenced skill now exists. Wave-2 platform expansion (Aug 2026) delivered: microsoft-ads, x-ads, apple-search-ads, pinterest-ads, snapchat-ads, quora-ads, native-ads, programmatic-ctv. Wave-3 expansion (Aug 2026) delivered: spotify-ads, podcast-newsletter-ads, marketplace-expansion, shopping-feeds, ugc-advertising, retail-media. See marketing-core/capability-catalog.md for further planned expansion.
