@@ -23,9 +23,9 @@ outputs:
 related_skills:
   - meta-ads
   - google-ads-audit
-  - marketing-ad-creative/ad-creative-generator
-  - marketing-analytics/metrics-framework
-  - marketing-attribution/attribution-model-selection
+  - marketing-paid/ad-creative-generator
+  - marketing-optimize/metrics-framework
+  - marketing-optimize/attribution-model-selection
 required_context:
   - .context/product-marketing.md
   - .context/project-context.md

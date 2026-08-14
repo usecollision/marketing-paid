@@ -21,9 +21,9 @@ outputs:
   - optimization_plan
 related_skills:
   - paid-strategy
-  - marketing-ad-creative/ad-creative-generator
-  - marketing-cro/landing-page-optimization
-  - marketing-analytics/analytics-setup
+  - marketing-paid/ad-creative-generator
+  - marketing-optimize/landing-page-optimization
+  - marketing-optimize/analytics-setup
 required_context:
   - .context/product-marketing.md
 allowed_tools:
