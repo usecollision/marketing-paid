@@ -104,6 +104,43 @@ Invoke when:
 
 **Gate:** Measurement plan includes completion and a lift metric, not clicks alone.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Orbis Agency, ATTN Agency (DTC growth), Esteban Largaespada (Online Optimism), Spotify Advertising docs (Brand Lift, Pixel). Full research: practitioner-intelligence/syntheses/paid-longtail.md.
+
+- **Spotify is a brand recall/reach channel, not direct response** — "the strength of Spotify Ads is in brand recall and reach, not in direct click-to-purchase sales. If you expect an audio ad to generate immediate, trackable sales the way a Google search campaign would, you're going to be frustrated" (Orbis — OPINION, T2).
+- **Audio CTR is structurally low (0.1-0.5%) but intent is higher** than display (ATTN — HEURISTIC, T2).
+- **The performance path is indirect**: audio exposure → branded search → conversion elsewhere. Pair flights with a branded-search bid bump + visual retargeting of listeners (ATTN — FRAMEWORK, T2).
+- **Measurement is Brand Lift + search lift, not platform CPA**: Spotify Brand Lift randomizes test/control with in-app polls ≤48h post-exposure; Koodo example: +23pt ad recall (Spotify docs — EMPIRICAL, T1/T2).
+- **Spotify Pixel + website-traffic objective** now exist for performance-minded buyers, but operator consensus: still a brand/consideration channel (Largaespada — T2).
+- **Start with display ads as a low-risk entry** before producing audio creative (Largaespada — HEURISTIC, T2).
+- Opt-in video ads (now-playing view) reach a self-selecting engaged audience (Largaespada — T2).
+- Targeted audio ads achieve ~24% higher brand recall than non-targeted (R-Advertising cited study — T3).
+
+Decision rules:
+1. IF the objective is direct-response ROAS THEN don't lead with Spotify audio; use it only as a brand/consideration layer (Orbis — OPINION, T2).
+2. IF running Spotify THEN pair with: branded-search bid bump + visual retargeting of listeners during flight (ATTN — FRAMEWORK, T2).
+3. IF measuring Spotify THEN require Brand Lift or branded-search-volume lift — dashboard CTR is not the verdict (Spotify docs/ATTN — FRAMEWORK, T2).
+4. IF testing Spotify for the first time THEN start with display before investing in audio creative (Largaespada — HEURISTIC, T2).
+5. IF writing audio creative THEN one message per 30s spot; never cram (ATTN — HEURISTIC, T2).
+6. IF budget is below minimum viable reach for the target audience THEN skip — underfunded audio is untestable noise (Orbis/ATTN synthesis — HEURISTIC, T3).
+
+## Metrics
+
+- **Brand Lift (recall/consideration)** + **branded search volume** during/after flight (Spotify docs/ATTN — FRAMEWORK, T2).
+- **Completed listens / frequency / reach** as delivery metrics (Orbis — HEURISTIC, T2).
+- **Delayed and cross-device conversions** with extended attribution windows (ATTN — HEURISTIC, T2).
+- **Guardrail**: an agency that can't explain how it will measure the effect "is your first warning sign" (Orbis — OPINION, T2).
+- **Timebox**: brand effects measured over the flight + post-period; not a 7-day ROAS channel.
+
+## Sources
+
+1. Orbis Agency, Spotify Ads | orbis.agency | tier 2 | 2026-08-15
+2. ATTN Agency, Spotify & Audio Ads for Ecommerce | attnagency.com | tier 2 | 2026-08-15
+3. Online Optimism, Spotify's push into performance marketing | onlineoptimism.com | tier 2 | 2026-08-15
+4. Spotify Ads, Ad Measurement docs | ads.spotify.com | tier 1 | 2026-08-15
+5. New Digital Age, Spotify launches Brand Lift (Koodo) | newdigitalage.co | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

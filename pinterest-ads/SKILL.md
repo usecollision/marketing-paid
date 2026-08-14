@@ -109,6 +109,42 @@ Pinterest demand is calendar-driven - users plan months ahead:
 
 **Gate:** Measurement plan includes saves, clicks, and assisted revenue; kill-scale rules defined.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Md Sharifuzzaman (Pinterest Advertising Stuff / Decor Ads Pro, 343+ projects), Vixen Digital (Galvan London case), Pinterest Business official benchmarks. Full research: practitioner-intelligence/syntheses/paid-longtail.md.
+
+- **Pinterest is a planning-intent catalog channel**: users save ideas 30-90 days before purchase; intent quality beats Meta cold audiences (Sharifuzzaman/Pinterest — CONSENSUS, T2).
+- **Catalog quality is the single biggest lever**: category-first titles (brand keyword in title = +28% ROAS, pattern keyword +22% — Pinterest internal), lifestyle hero images, clean feed (Pinterest — EMPIRICAL, T2).
+- **Always-on beats bursts**: campaigns 6+ months ≈ +25% ROAS; <3 months = −5-16% vs average; pausing resets learning (Pinterest internal — EMPIRICAL, T2).
+- **Auto-targeting beats manual overlays** on catalog campaigns: a direct test saw ROAS drop 39x→31x for 6 weeks when interest overlays were added (Sharifuzzaman — EMPIRICAL, T2).
+- **Scale ≤15-20%/month**; rapid increases reset optimization (Sharifuzzaman — HEURISTIC, T2).
+- **Month 1-3 is below benchmark** — the algorithm builds conversion signal; early numbers are not the ceiling (Sharifuzzaman/Pinterest — CONSENSUS, T2).
+- **CAPI + tag = 9% better CPA and 23.7% more attributed conversions** vs tag-only (Pinterest internal — EMPIRICAL, T2).
+- Structure: one dominant catalog campaign (~80% spend) + collections + small retargeting; fragmented micro-campaigns starve the algorithm (Sharifuzzaman — HEURISTIC, T2).
+
+Decision rules:
+1. IF running shopping/catalog campaigns THEN keep them always-on year-round; never pause for events — rotate creative/promotions instead (Pinterest — EMPIRICAL, T2).
+2. IF catalog underperforms THEN fix the feed first (titles, images, price accuracy) before touching bids (Sharifuzzaman/Pinterest — EMPIRICAL, T2).
+3. IF using catalog auto-targeting THEN do NOT add interest/keyword overlays (Sharifuzzaman — EMPIRICAL, T2).
+4. IF scaling THEN cap increases at 15-20%/month and wait for ROAS re-stabilization (Sharifuzzaman — HEURISTIC, T2).
+5. IF evaluating Pinterest THEN require a 90-day window + CAPI tracking; compare to GA4/attribution gap, not dashboard ROAS alone (T2).
+6. IF category is visual + high-AOV + planning-driven (furniture, decor, weddings, fashion) THEN Pinterest can beat Meta/Google on CPA; IF low-visual or B2B service THEN skip (Sharifuzzaman/Vixen — HEURISTIC, T2).
+
+## Metrics
+
+- **Catalog ROAS** (dashboard) + **GA4/attribution gap** — gap is expected; direction over magnitude (Sharifuzzaman — HEURISTIC, T2).
+- **Earned impressions vs paid** (successful campaigns run 2-3x earned) (Dataslayer — T3).
+- **Feed health** (title structure, image quality, price consistency) as pre-flight gate (Pinterest — EMPIRICAL, T2).
+- **Timebox**: 90 days minimum before verdict; re-measure after every 15-20% budget step.
+
+## Sources
+
+1. Md Sharifuzzaman, 39.94x Pinterest catalog case study | pinterestadvertisingstuff.com | tier 2 | 2026-08-15
+2. Pinterest Business, Shopping best practices checklist | business.pinterest.com/blog | tier 1 | 2026-08-15
+3. Vixen Digital, Pinterest for ecommerce (Galvan London) | vixendigital.com | tier 2 | 2026-08-15
+4. Social Media Today, Pinterest catalog advice | socialmediatoday.com | tier 2 | 2026-08-15
+5. Dataslayer, Pinterest reporting mistakes | dataslayer.ai | tier 3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

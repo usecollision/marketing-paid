@@ -108,6 +108,44 @@ Invoke when:
 
 **Gate:** Signed terms include makegoods and exact placement inventory.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Terrence Ngu (Hashmeta), Ad Results Media (via AdAge), Springcast/Magellan AI, Paved/SponsorGap/InfluencerFee (newsletter benchmarks). Full research: practitioner-intelligence/syntheses/paid-longtail.md.
+
+- **Host-read is a trust/recall buy**: 70-80% higher recall than programmatic; 45% of super listeners believe hosts actually use the products; premium CPM $25-80 for that trust (Hashmeta/Ad Results Media — EMPIRICAL, T2).
+- **Programmatic podcast = reach/targeting/scale**: CPM $15-35, run-of-network $3-15; DAI now delivers 90%+ of podcast ad revenue (IAB via Springcast — EMPIRICAL, T2).
+- **The unit is CPM on listeners — and true cost should be lifetime**: host-read keeps delivering for months/years in the back catalog, lowering effective CPM (Hashmeta — HEURISTIC, T2).
+- **Attribution is structurally weak**: promo codes are standard but "require listeners to remember and enter codes manually — friction reduces measured conversions relative to actual influence"; vanity URLs reduce friction; branded-search monitoring + surveys + brand lift are the honest layer (Hashmeta — CONSENSUS, T2).
+- **Hybrid wins**: host-read for flagship credibility + programmatic for reach extension — "just say both" (Ad Results Media — CONSENSUS, T2).
+- **Newsletter economics** (SponsorGap/InfluencerFee/Paved — T2/T3): newsletter CPMs exceed display ($1-5), paid social ($5-15) and podcast ($20-50); dedicated emails 2-3x inline; top placement +10-25%; category exclusivity +25-100%; **CPM quoted on subscribers, not opens — smart buyers negotiate cost per open (≈2x effective)**; CTR >5% exceptional; finance/B2B niches command the highest CPMs.
+- **High-trust editorial newsletters beat high-subscriber-count ones** (InfluencersKit — OPINION, T3).
+
+Decision rules:
+1. IF the objective is trust/consideration for complex or premium products THEN buy host-read on niche shows (CPM $25-80) (Hashmeta — HEURISTIC, T2).
+2. IF the objective is reach/efficiency for simple impulse products THEN buy programmatic podcast (RON $3-15; targeted $15-35) (Hashmeta/Springcast — EMPIRICAL, T2).
+3. IF measuring a podcast flight THEN run promo code + vanity URL + branded-search volume + new-customer survey in parallel — never promo codes alone (Hashmeta — FRAMEWORK, T2).
+4. IF negotiating newsletters THEN price on opens and CTR, not subscribers; require open-rate data; use UTMs + promo codes (InfluencerFee/SponsorGap — HEURISTIC, T2).
+5. IF renewing a sponsorship THEN require click/conversion evidence (UTMs, promo redemptions) before premium rates (InfluencerFee — HEURISTIC, T2).
+6. IF budget is small THEN one high-fit host-read show beats five programmatic sprinkles (Ad Results Media/Hashmeta — OPINION, T2).
+7. IF a newsletter claims huge reach but hides open rates THEN discount it — real eyeballs are opens, not subscribers (InfluencerFee — HEURISTIC, T2).
+
+## Metrics
+
+- **Promo-code redemptions + vanity-URL traffic + branded-search lift** as the measurement triad (Hashmeta — FRAMEWORK, T2).
+- **Newsletter: cost per open and click CTR** (not CPM on subscribers) (InfluencerFee — HEURISTIC, T2).
+- **CPM sanity bands**: host-read $25-80; programmatic $15-35 (RON $3-15); newsletter dedicated 2-3x inline (Hashmeta/Springcast/SponsorGap — EMPIRICAL/T3).
+- **Guardrail**: single-touch/last-click attribution for podcast "systematically undervalues" the channel (Hashmeta — HEURISTIC, T2).
+- **Timebox**: judge at campaign end + lag window (listeners research later); evergreen back-catalog value accrues for months.
+
+## Sources
+
+1. Hashmeta, Podcast Advertising: Host-Read vs Programmatic | hashmeta.com | tier 2 | 2026-08-15
+2. Springcast, Host-read vs programmatic ads (Magellan AI data) | springcast.io | tier 2 | 2026-08-15
+3. Ad Results Media (AdAge), Is programmatic the future of podcast advertising? | adresultsmedia.com | tier 2 | 2026-08-15
+4. SponsorGap, Newsletter Sponsorship Rates 2026 | sponsorgap.com | tier 3 | 2026-08-15
+5. InfluencerFee, Newsletter sponsorship rates & CPM benchmarks | influencerfee.com | tier 3 | 2026-08-15
+6. Paved, Newsletter sponsorship rates | paved.com | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

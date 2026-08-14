@@ -119,6 +119,42 @@ The differentiator other search engines don't have:
 
 **Gate:** Cadence calendar set; platform-specific targets defined.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Melissa Mackey (Head of Paid Search, Compound Growth Marketing; ex-JumpFly; Bing Champion 2018/19), Lisa Raehsler (Big Click Co), LSEO. Full research: practitioner-intelligence/syntheses/paid-longtail.md. Cross-ref: google-ads skill (Mackey verified for Google too).
+
+- **"In general Bing outperforms Google, both in higher conversion rates and lower CPCs"** — not true for every client, but common (Mackey — EMPIRICAL/HEURISTIC, T1). Case: new client's cost per conversion on Bing was ¼ that of Google (Mackey — EMPIRICAL, T1).
+- **Bing's audience is different, not a clone**: better-educated, higher household income (Microsoft's Rik van der Kooi via Mackey — T2); skews older + Windows/Office/LinkedIn ecosystem.
+- **"Importing AdWords campaigns to Bing — many advertisers don't realize their job has just started with the import"** (Mackey — FRAMEWORK, T1): bids, negatives, extensions, geo, devices all need Bing-native re-tuning post-import (Mackey/Raehsler — CONSENSUS).
+- **Bing "feels like a second language"**: ad-group-level targeting available; targeting sometimes doesn't import cleanly; negative matching has fewer options (no negative broad match) (Mackey — EMPIRICAL, T1).
+- **Microsoft Audience Network placements "aren't search"** — can't exclude sites or set per-site ads; manage via bid modifiers with separate expectations (Mackey — HEURISTIC, T1).
+- Automation is more manual in Microsoft Ads — plan for more hands-on management (LSEO — T3).
+
+Decision rules:
+1. IF a Google Ads account exists THEN import to Microsoft Ads, then treat the import as a starting point: re-check bids, negatives (no negative broad), extensions, geo and device targets (Mackey/Raehsler — FRAMEWORK, T1).
+2. IF the ICP skews older, higher-income, or Windows/Office/LinkedIn-adjacent THEN prioritize Microsoft Ads — the audience differs from Google's (Mackey/Microsoft — EMPIRICAL, T2).
+3. IF comparing platforms THEN compare cost-per-conversion and conversion rate, not CPC — Bing often wins both (Mackey — EMPIRICAL, T1).
+4. IF running Microsoft Audience Network placements THEN manage with bid modifiers and separate performance expectations — native ≠ search (Mackey — HEURISTIC, T1).
+5. IF a campaign underperforms on Bing but wins on Google THEN check match-type nuances and bid calibration before killing (LSEO/Mackey — HEURISTIC, T2).
+6. IF re-optimizing Google THEN re-import to Microsoft Ads on a schedule to propagate improvements (LSEO — HEURISTIC, T3).
+
+## Metrics
+
+- **Cost per conversion + conversion rate vs Google** as primary comparison (Mackey — EMPIRICAL, T1).
+- **Post-import audit completeness** (bids, negatives, extensions, geo, devices) as a pre-flight gate (Raehsler — HEURISTIC, T2).
+- **Audience Network performance separated** from search metrics (Mackey — HEURISTIC, T1).
+- **Guardrail**: import-and-forget is the #1 failure; copy-paste Google bids without calibration (Mackey — HEURISTIC, T1).
+- **Timebox**: 30-60 days post-import to re-tune and judge.
+
+## Sources
+
+1. Melissa Mackey, Where Bing Ads Are Beating Google | beyondthepaid.com | tier 1 | 2026-08-15
+2. Melissa Mackey, Importing AdWords Campaigns to Bing Ads: The Guide | beyondthepaid.com | tier 1 | 2026-08-15
+3. Melissa Mackey, Bing Ads feels like a second language | beyondthepaid.com | tier 1 | 2026-08-15
+4. Melissa Mackey profile (Bing Champion, JumpFly) | paidsearch.org/team/melissa-mackey | tier 2 | 2026-08-15
+5. Lisa Raehsler, Optimizing Bing Ads after import (via Mackey) | bigclickco.com | tier 2 | 2026-08-15
+6. LSEO, How to Import Google Ads into Microsoft Ads | lseo.com | tier 3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

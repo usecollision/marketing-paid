@@ -104,6 +104,46 @@ Native creative is a headline contest first, image second:
 
 **Gate:** Scaling rules based on quality-adjusted metrics; retargeting handoff configured.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Marcel Sattler (native-advertising.net, $100M+ deployed), Fabien Schwartz (Schwartz Consulting), Joinative, OpenAdLibrary, Taboola/Outbrain case libraries. Full research: practitioner-intelligence/syntheses/paid-longtail.md.
+
+- **The native CPA curve is INVERTED vs Facebook**: CPAs start high and fall over 2-4 weeks of manual optimization, then stabilize. Meta starts cheap, then explodes at scale (Sattler — EMPIRICAL, T1). "If someone sold you on Taboola or Outbrain going green in three days, they lied."
+- **You need cash flow to survive convergence**; starting native when liquidity is short is always a bad decision (Sattler — HEURISTIC, T1).
+- **Optimize three layers**: angle → ad → site; 3-5 editorials per angle (~15 in test); KPI-driven cuts only, never gut feeling (Sattler — FRAMEWORK, T1).
+- **CTR is not a profitability metric** — app placements show high CTR/low CVR; judge CPA/ROAS on the full funnel (Schwartz — CONSENSUS with Sattler, T2).
+- **Native feeds everything else**: clicks feed retargeting pools and lift other channels (halo) (Schwartz/Joinative/Outbrain — CONSENSUS, T2).
+- **Headline must match content promise** — mismatch is a documented top mistake (Joinative — HEURISTIC, T2); durable formulas: curiosity + unresolved verdict + specific numbers (OpenAdLibrary — T3).
+- **Don't trust max-conversion bidding before data exists** — budget burns for 1-2 leads (Schwartz — HEURISTIC, T2).
+- **S2S (server-to-server) tracking is the key** to accurate native data (Schwartz — HEURISTIC, T2).
+
+Decision rules:
+1. IF running native THEN budget 2-4 weeks of runway at expected unprofitable CPAs before judging (Sattler — EMPIRICAL, T1).
+2. IF CPA is high in week 1-2 THEN optimize angles/ads/sites — do NOT kill the campaign or cut budget (Sattler — EMPIRICAL, T1).
+3. IF a campaign is still unprofitable after 4 weeks of structured testing THEN cut on KPI thresholds, never gut feel (Sattler — HEURISTIC, T1).
+4. IF choosing a KPI THEN use CPA/ROAS; treat CTR as an early diagnostic only (Schwartz/Sattler — CONSENSUS, T2).
+5. IF launching THEN test ≥3 angles x 3-5 editorials x 2-3 landing pages in parallel from day one (Sattler/Schwartz — FRAMEWORK, T2).
+6. IF evaluating native's contribution THEN include assisted/halo impact and route clicks into retargeting — last-click-only makes native look ineffective (Joinative/Outbrain — HEURISTIC, T2).
+7. IF cash-constrained THEN don't start native at all (Sattler — HEURISTIC, T1).
+
+## Metrics
+
+- **CPA / ROAS on final action** as primary (Sattler — FRAMEWORK, T1).
+- **Editorial CTR + landing CTR** as early signals while conversion data is thin (Sattler — HEURISTIC, T1).
+- **CPA trend curve**: high start → falling → stable = convergence; flat-high after 4 weeks = kill (Sattler — EMPIRICAL, T1).
+- **S2S tracking completeness** as a pre-flight gate (Schwartz — HEURISTIC, T2).
+- **Guardrail**: never optimize to CTR; app placements inflate it (Schwartz — HEURISTIC, T2).
+- **Timebox**: verdict at end of week 4 of structured testing.
+
+## Sources
+
+1. Marcel Sattler, Profitable Native Ads on Taboola & Outbrain | native-advertising.net | tier 1 | 2026-08-15
+2. Schwartz Consulting, How to boost online sales with Outbrain and Taboola | schwartzconsulting.co.uk | tier 2 | 2026-08-15
+3. Joinative, 9 Native Advertising Mistakes | joinative.com | tier 2 | 2026-08-15
+4. OpenAdLibrary, Native Ad Headlines: 12 Formulas | openadlibrary.com | tier 3 | 2026-08-15
+5. Outbrain, Best of 2020 case studies (Domino's) | outbrain.com | tier 2 | 2026-08-15
+6. Taboola, case studies (Kaspersky, Zazume) | taboola.com | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

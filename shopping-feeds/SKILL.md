@@ -111,6 +111,47 @@ Invoke when:
 
 **Gate:** Hygiene cadence documented; feed-first triage rule adopted in the optimization workflow.
 
+## Practitioner Grounding
+
+- **AdTribes** (feed tool vendor): diagnostics triage is top-down — account-level → feed-level → item-level; within items: errors (won't show) → warnings (performance suffers) → notifications (informational) (HEURISTIC, T2).
+- **Elite Brands** (agency): ~80% of account issues are warnings/limited-performance flags on non-core products; the damage is the ~20% hard disapprovals on revenue SKUs; account-suspension warnings are all-hands emergencies (HEURISTIC, T2).
+- **GetFeeder** (feed vendor): technical error taxonomy — malformed XML, units required on shipping_weight ("1.5 kg" not "1.5"), 4GB compressed feed limit, promo language belongs in the promotions feed (FACT, T1).
+- **Shoparize** (CSS partner): data-quality issues are the fastest wins — missing attributes/formatting resolve in hours with fast re-approval; set up disapproval notifications (HEURISTIC, T2).
+- **MBA Digital Ventures** (agency): feed management tools (Feedonomics, DataFeedWatch) add error alerting before disapproval; useful at catalog scale (HEURISTIC, T3).
+- **Shopify/WordPress community field reports**: category-taxonomy mismatches spike disapprovals across hundreds of SKUs; "all products disapproved despite valid feed" patterns usually trace to account/taxonomy-level changes, not per-item issues (T3).
+- Existing shopping-feeds skill validated against all of the above (price/availability mismatch as the top recurring health issue; fix at source).
+
+## Decision Rules
+
+- IF an account-suspension warning is present THEN stop all other work; remediate the root cause immediately (Elite Brands; HEURISTIC; T1)
+- THEN resolve account-level → feed-level → item-level issues; within item-level: errors before warnings before notifications (AdTribes; HEURISTIC; T2)
+- IF hard disapprovals exist on core revenue SKUs THEN fix those before high-volume warnings on non-core SKUs (80/20 rule) (Elite Brands; HEURISTIC; T2)
+- IF price/availability/GTIN mismatch THEN fix at the catalog source, never in Merchant Center or a supplement feed (existing skill; AdTribes; T1/T2)
+- IF Shopping/PMax ROAS dips THEN check diagnostics before touching bids; only move to bid/asset optimization when the feed is clean (existing skill; HEURISTIC; T2)
+- IF catalog > ~1,000 SKUs THEN use rule-based title generation with hand-tuned hero SKUs; document rule owners and audit quarterly (existing skill; MBA Digital; HEURISTIC; T2)
+- IF >100 products are suddenly disapproved at once THEN suspect an account/taxonomy-level change before debugging per-item issues (community reports; T3)
+- IF using promotions THEN put promotional language in the promotions feed, never in titles/descriptions (GetFeeder; FACT; T1)
+- IF shipping_weight is rejected THEN add units (kg/lb) — numeric-only values fail (GetFeeder; FACT; T1)
+
+## Metrics
+
+- **Primary**: % of items disapproved, weighted by revenue (core SKUs at zero errors) (Elite Brands; HEURISTIC; T2)
+- **Guardrails**: account-health warnings count (rising = early signal), re-approval latency after fixes, feed vs landing-page price/availability mismatch count
+- **Performance proxies**: Shopping CTR (title/image quality), ROAS by custom label (margin/promo structure)
+- **Cadence**: weekly diagnostics review + new-SKU feed status; monthly title refresh from search-term data; quarterly taxonomy/custom-label audit (existing skill)
+- **Stop-and-remeasure**: if a fix disappears on the next fetch, it was edited in Merchant Center — stop and fix the source (existing skill; AdTribes)
+
+## Sources
+
+1. AdTribes — Google Merchant Center Diagnostics: Fix WooCommerce Feed Errors & Avoid Suspension | adtribes.io/google-merchant-center-diagnostics | T2 | 2026-08-15
+2. Elite Brands — Not All Google Merchant Center Disapprovals Are Bad (80/20 + suspension triage) | elitebrands.org/blog | T2 | 2026-08-15
+3. GetFeeder — Google Shopping Disapprovals: Fix Every Error Type | getfeeder.co/blog/google-shopping-disapprovals | T2 | 2026-08-15
+4. Shoparize — How Do You Fix Google Shopping Disapprovals | partner.shoparize.com | T3 | 2026-08-15
+5. MBA Digital Ventures — Debugging Merchant Center Feed Errors & Disapprovals (2026) | mbadv.agency | T3 | 2026-08-15
+6. Shopify Community — Why does my Google Shopping feed keep getting disapproved (category mapping) | community.shopify.com | T3 | 2026-08-15
+7. WordPress.org — All products disapproved despite valid feed (account/taxonomy-level pattern) | wordpress.org/support | T3 | 2026-08-15
+8. Synthesis: practitioner-intelligence/syntheses/feeds.md | T1-T3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes
@@ -121,3 +162,6 @@ Invoke when:
 - No custom labels - PMax and Shopping run blind without margin and promo structure
 - Letting rules accumulate - a web of feed rules nobody can untangle
 - Treating feed quality as one-time setup - it decays with every catalog change
+- Debugging item-level errors first when the cause is account- or taxonomy-level - wasted hours (AdTribes; community reports; T2/T3)
+- Ignoring account-suspension warnings while polishing individual products - the account dies while you fix items (Elite Brands; T2)
+- Promo language in titles/descriptions instead of the promotions feed - policy risk + spam look (GetFeeder; T1)

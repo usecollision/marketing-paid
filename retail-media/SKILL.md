@@ -116,6 +116,51 @@ Invoke when:
 
 **Gate:** Reporting structure mirrors the agreed measurement read; optimization cadence scheduled.
 
+## Practitioner Grounding
+
+- **Darkroom Agency** (Amazon/retail media practice, 4-member peer review): DSP is the upper-funnel and retargeting layer that makes search more efficient — "not a replacement for SP/SB, not a quick-win channel"; premature below ~$50k/month sponsored spend; search + DSP form a flywheel (HEURISTIC, T2).
+- **Brent Zahradnik** (AMZ Pathfinder/SellerPlex, Head of DSP): DSP is programmatic buying across Amazon + third-party inventory (not Seller Central display ads); SB campaigns delivered 88% NTB attributed orders for a client; AMC measurement adoption (HEURISTIC/EMPIRICAL, T2).
+- **Instacart engineering**: incrementality measured continuously at three levels (advertiser, system, experiment); 14-day attribution window for sponsored products due to weekly cart-filling behavior (EMPIRICAL, T1).
+- **SellerStack**: platform ROAS credits purchases that would have happened anyway; halo sales (organic-rank lift, cross-SKU) never appear in the console; holdouts belong on upper-funnel DSP "where you're not betting the quarter on it" (EMPIRICAL, T1/T2).
+- **Perpetua** (Instacart/Walmart/Amazon vendor): Instacart ads auto-serve into new stores (pace budgets); flagship keywords win ToS; less expensive than mature marketplaces (2021, T2).
+- **Eva Commerce / Walmart Connect resources**: Walmart Connect = first-party omnichannel data, closed-loop measurement, store+online story; price competitiveness + fast shipping prerequisites (HEURISTIC, T2).
+- **Feedvisor 2022 brand survey**: e-marketplaces are a top-priority channel; self-reported 7x Amazon ad ROAS — vendor-commissioned, treat as directional (T3).
+
+## Decision Rules
+
+- IF the product is not sold at the retailer THEN do not run retail media there (existing skill; universal; HEURISTIC; T1)
+- IF any SKU is out of stock THEN pause its ads before spending more (universal; HEURISTIC; T1)
+- IF sponsored search spend < ~$50k/month or profitability inconsistent THEN skip DSP; invest in on-site sponsored first (Darkroom; HEURISTIC; T2)
+- IF goal = new customer acquisition THEN prioritize NTB-reporting formats (SB video, DSP NTB-optimized) and set NTB% targets (Zahradnik/Pathfinder case; HEURISTIC; T2)
+- IF branded on-site terms already have high organic share THEN test cannibalization with a holdout before scaling (SellerStack; paid-strategy synthesis; EMPIRICAL; T2)
+- IF a network offers audience segments THEN verify how segments are built and refreshed before trusting them (existing skill; Eva Commerce; HEURISTIC; T2)
+- IF retail media budget exceeds ~$100k/month THEN require an incrementality read (AMC analysis or holdout/MMM), never dashboard ROAS alone (synthesis inference; SellerStack; HEURISTIC; T3)
+- IF media is funded from trade budget THEN coordinate flights with JBP/promo calendar and keep continuous flighting (existing skill; HEURISTIC; T2)
+- IF running Instacart THEN pace budgets against automatic serving into new stores and honor the 14-day attribution window in reads (Perpetua; EMPIRICAL; T2)
+
+## Metrics
+
+- **Primary**: incrementality lift (holdout/AMC) — the only truth layer; plus platform ROAS as directional only (SellerStack; Instacart; T1/T2)
+- **Acquisition**: New-to-Brand % per campaign (target set per objective; CPG key metric) (Pathfinder; T2)
+- **Halo**: organic rank movement on un-advertised SKUs, category share, store+online lift where data access exists (Pattern; T2)
+- **Guardrails**: NTB% < 10% on acquisition campaigns = audience too small/lapsed-heavy; ACoS on on-site vs break-even
+- **Cadence**: on-site weekly (bids, placements, search terms); off-site monthly (audiences, creative, frequency); quarterly network rebalance + renegotiation (existing skill)
+- **Stop-and-remeasure**: after any network switch or bid-strategy change, judge results only after one full attribution window (Instacart = 14 days)
+
+## Sources
+
+1. Darkroom — What Amazon DSP Actually Does and When Brands Should Use It | darkroomagency.com/observatory/what-amazon-dsp-does-when-to-use-it | T2 | 2026-08-15
+2. Zahradnik — QA Selling Online Podcast (2020) + AMZ Pathfinder case studies | qasellingonline.com; amzpathfinder.com | T1/T2 | 2026-08-15
+3. Instacart — The Methodology of Ad Incrementality | company.instacart.com/tech-innovation | T1 | 2026-08-15
+4. Perpetua — The Definitive Guide to Instacart Advertising | perpetua.io | T2 | 2026-08-15
+5. SellerStack — Incrementality and the Halo Effect in Amazon Ads | sellerstack.ai/glossary/incrementality | T2 | 2026-08-15
+6. Pattern — Amazon Brand Halo Sales from Advertising (10 halo elements) | pattern.com/blog/amazon-brand-halo-sales-advertising | T2 | 2026-08-15
+7. Eva Commerce — Walmart Connect Ads Agency Guide 2026 | eva.guru/blog/walmart-connect-ads | T3 | 2026-08-15
+8. Walmart Connect — Resources & case studies (Mr.Brands +60% sales; OREO in-store) | walmartconnect.com/resources | T2 | 2026-08-15
+9. Feedvisor — Brands Report Seven Times Return from Amazon Advertising (2022 survey) | businesswire.com | T3 | 2026-08-15
+10. Adverity — What is Instacart Ads and What Metrics Can Measure Its Success | adverity.com/blog | T3 | 2026-08-15
+11. Synthesis: practitioner-intelligence/syntheses/retail-media.md | T1-T3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes
@@ -126,3 +171,6 @@ Invoke when:
 - Buying audiences without asking how segments are built and refreshed
 - Treating all networks as interchangeable - each has different data, fees, and formats
 - No incrementality or holdout design - the entire measurement story is missing
+- DSP without search infrastructure - DSP traffic has nowhere to convert (Darkroom; T2)
+- Unpaced Instacart budgets - auto-serving into new stores spikes spend without warning (Perpetua; T2)
+- Trusting retailer-defined audience segments blindly - definitions and refresh schedules are opaque (existing skill; T2)

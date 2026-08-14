@@ -129,6 +129,53 @@ The compounding engine of Amazon PPC:
 
 **Gate:** Written go/no-go on DSP with budget threshold and KPIs defined.
 
+## Practitioner Grounding
+
+- **Mike Zagare** (PPC Entourage): volume-tier campaign structure (single-keyword campaigns for top terms, 10-15 max per low-volume campaign), exact-match Top-of-Search for rank goals, weekly harvest/negate loop (HEURISTIC, T2).
+- **Brent Zahradnik** (AMZ Pathfinder/SellerPlex): stage-appropriate ACoS (a 4-month-old brand at <90% ACoS is launch-acceptable if rank is building), negatives-vs-lower-bid judgment, event-day bid-vs-budget lever decisions (HEURISTIC, T2).
+- **Ash Metry / Keywords.am**: lifecycle budget splits — launch 80/15/5 (SP/SB/SD), growth 60/25/15, mature 50/25/15/10-DSP, brand-under-attack 40/35/25; TACoS sizing 10-20% of revenue (HEURISTIC, T2).
+- **AMALYZE / SalesDuo**: placement modifiers apply FIRST, dynamic bidding compounds SECOND ($1 bid × 900% ToS × up-and-down ≈ $20); up-and-down only on proven exact terms (EMPIRICAL, T2).
+- **pcostudio**: ACoS = campaign metric, TACoS = business metric; ACoS rising + TACoS falling = healthy launch, not a problem (FRAMEWORK, T1).
+- **SellerStack / Pattern**: ad-attributed ROAS inflates; NTB and halo (organic-rank lift, cross-SKU) are the missing truth; "when a branded campaign's ROAS looks great, distrust it" (EMPIRICAL, T1).
+- **Darkroom Agency**: DSP is an upper-funnel/retargeting layer, premature below ~$50k/month sponsored spend (HEURISTIC, T2).
+- **Chris McCabe / SellerSprite**: enforcement risk is operational risk — review velocity flags, packaging inserts, and third-party actions suspend accounts; document proportionality (EMPIRICAL, T2).
+
+## Decision Rules
+
+- IF listing doesn't convert organically at category parity THEN fix listing before scaling ads (Zagare; universal; HEURISTIC; T1)
+- IF ad budget < $1.5k/month THEN SP-only, 80%+ of budget, single-keyword campaigns for top 5 high-volume terms (Zagare; Keywords.am; HEURISTIC; T2)
+- IF stage = launch THEN ACoS target ≥ break-even, TACoS may run 20%+ and should decline within 8-12 weeks; do NOT cut on ACoS alone (pcostudio; Zahradnik; HEURISTIC; T2)
+- IF stage = growth and 100+ reviews and branded search volume exists THEN move to ~60/25/15 split and enable SD retargeting (Keywords.am; HEURISTIC; T2)
+- IF competitors bid your brand terms THEN prioritize SB brand defense over ACoS efficiency (Keywords.am; HEURISTIC; T2)
+- IF using dynamic up-and-down bidding THEN only on proven exact terms with 30+ days conversion data; else use down-only; compute placement × dynamic compounding before setting modifiers (SalesDuo; AMALYZE; EMPIRICAL; T2)
+- IF a branded campaign's ROAS looks excellent THEN distrust it; check NTB% and organic rank movement before scaling (SellerStack; EMPIRICAL; T1)
+- IF sponsored spend < ~$50k/month or profitability inconsistent THEN no DSP; revisit at scale with AMC/holdout measurement (Darkroom; HEURISTIC; T2)
+- IF review velocity spikes after a launch THEN proactively prepare proportionality documentation (sales data + campaign records) (SellerSprite; McCabe; EMPIRICAL; T2)
+- IF TACoS is flat/rising while ACoS is stable THEN organic rank is not following — the listing is the problem, not bids (pcostudio; HEURISTIC; T2)
+
+## Metrics
+
+- **Primary**: TACoS (total ad spend / total sales) — business health; target by stage: launch 20%+ declining after 8-12 weeks, mature < 8-12% (Keywords.am; pcostudio; HEURISTIC; T2)
+- **Campaign-level**: ACoS vs per-ASIN break-even ACoS (= contribution margin %); one target per ASIN stage, never account-wide (Zagare; universal; T1)
+- **Guardrails**: NTB% on SB/SD (acquisition quality), organic share of sales (monthly), placement report CPC vs modifier expectations (AMALYZE)
+- **Cadence**: weekly search-term harvest + bid review; monthly TACoS/organic-share review; quarterly budget-split review vs lifecycle stage (Zagare; Keywords.am)
+- **Stop-and-remeasure**: after any bid-strategy switch, judge results only after 14 days; do not change bids during the switch (SalesDuo)
+
+## Sources
+
+1. Zagare — 6 Options for Determining Amazon Ad Campaign Starting Bids | blog.ppcentourage.com | T1 | 2026-08-15
+2. Zagare — How to Optimize Amazon PPC (video transcript) | zonguru.com/blog/amazon-ppc-keyword-optimization | T1 | 2026-08-15
+3. Zahradnik — QA Selling Online Podcast interviews (2020) | qasellingonline.com | T1 | 2026-08-15
+4. Keywords.am — Best Amazon Advertising Budget Split by Stage (2026) | keywords.am/blog/amazon-advertising-budget | T2 | 2026-08-15
+5. AMALYZE — Placement Bid Modifiers: cascade effect | amalyze.com/resources/sponsored-success/placement-bid-modifiers | T2 | 2026-08-15
+6. SalesDuo — Amazon PPC Bidding Strategies (2026) | salesduo.com/blog/amazon-bidding-strategies-guide | T2 | 2026-08-15
+7. pcostudio — Amazon ACoS & TACoS Explained (3 scenarios) | pcostudio.com/en/blog/amazon-acos-tacos | T2 | 2026-08-15
+8. SellerStack — Incrementality and the Halo Effect in Amazon Ads | sellerstack.ai/glossary/incrementality | T2 | 2026-08-15
+9. Darkroom — What Amazon DSP Actually Does and When Brands Should Use It | darkroomagency.com | T2 | 2026-08-15
+10. SellerSprite — Amazon Review Manipulation Suspensions 2026 | sellersprite.com | T3 | 2026-08-15
+11. AMZ Pathfinder — case studies (88% NTB, Viter Energy 3.25 ROAS) | amzpathfinder.com | T2 | 2026-08-15
+12. Synthesis: practitioner-intelligence/syntheses/amazon.md | T1-T3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes
@@ -138,3 +185,8 @@ The compounding engine of Amazon PPC:
 - Auto campaigns left on aggressive defaults without category logic
 - Expecting DSP to deliver direct ROAS
 - Scaling spend before listing conversion rate is proven
+- Pausing profitable high-reach keywords to push ACoS down - the campaign looks better while the business shrinks (pcostudio; T2)
+- Trusting dynamic up-and-down on unproven campaigns - automation spends into the worst placements (r/FulfillmentByAmazon "127% ACoS" field report; T3)
+- Judging launches by ACoS and pulling PPC at week 4-6 before rank forms (Zahradnik; ainfluencer; T2)
+- Ignoring placement × dynamic-bidding compounding - surprise effective CPCs erase margin (AMALYZE; T2)
+- Review manipulation or review-request inserts - suspension and frozen funds even from manufacturer-added cards (SellerSprite; McCabe; T2)

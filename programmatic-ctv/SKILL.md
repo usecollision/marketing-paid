@@ -124,6 +124,43 @@ Invoke when:
 
 **Gate:** Verification live; reporting structure matches pre-agreed measurement expectations.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Measured (incrementality vendor), WorkMagic (Branch/Tatari geo test), Prescient AI, Simulmedia, Paramount Ads Manager. Full research: practitioner-intelligence/syntheses/paid-longtail.md. Cross-ref: syntheses/paid-strategy.md (incrementality, overlap tax).
+
+- **CTV is a no-click, lean-back medium** — no cookie/device path; identity graphs, QR codes, promo codes and vanity URLs are all imperfect bridges (WorkMagic/ExchangeWire — CONSENSUS, T2).
+- **Platform/view-through self-attribution is unreliable in BOTH directions**: Measured found CTV campaigns over-reporting incremental conversions by up to 5x and under-reporting by up to 10x (Measured — EMPIRICAL, T2).
+- **Most CTV impact is invisible to DTC-only measurement**: Branch/Tatari geo test found 20x more lift than last-click reported (4.18% incremental Shopify orders; 1.46x iROAS incl. Amazon; 86% of CTV-driven orders from new customers); a personal-care brand found 95% of CTV impact occurred OUTSIDE Shopify (WorkMagic — EMPIRICAL, T2).
+- **Geo-based incrementality (matched markets, 3-4 week dark control) is the campaign-level gold standard**; MMM is the only method capturing all downstream halo simultaneously; use both at scale (WorkMagic/Simulmedia/Prescient — CONSENSUS, T2).
+- **Halo lands in branded search, organic, direct, and retail** — CTV "increases the pool of people who know your brand well enough to search for it later" (Prescient — EMPIRICAL/FRAMEWORK, T2).
+- **CTV's job is new-customer acquisition + reach** — consistent with Binet/Sharp brand-reach findings (WorkMagic — EMPIRICAL, T2).
+- DSP selection matters less than measurement: platform-native tools can't run controlled lift tests — they only see their own channel (WorkMagic — HEURISTIC, T2).
+
+Decision rules:
+1. IF spending on CTV THEN measure with geo-based incrementality (matched markets, 3-4 week dark control) or MMM — never platform ROAS alone (Measured/WorkMagic/Prescient — EMPIRICAL, T2).
+2. IF CTV dashboard ROAS looks bad THEN check halo channels (branded search, direct, Amazon/retail) before cutting (WorkMagic/Prescient — EMPIRICAL, T2).
+3. IF the objective is new-customer acquisition or brand reach THEN CTV qualifies; IF pure last-click DR THEN it will look like a failure (WorkMagic/Prescient — EMPIRICAL, T2).
+4. IF budget is below what a powered geo test requires THEN treat CTV as brand spend with brand metrics (search lift, surveys) — not performance (synthesis — HEURISTIC, T3).
+5. IF choosing a DSP THEN require geo-suppression/holdout capability; without it, incrementality testing is impossible (WorkMagic — HEURISTIC, T2).
+6. IF running CTV alongside other channels THEN expect overlap/assist credit issues and apply incrementality-adjusted attribution (WorkMagic — FRAMEWORK, T2).
+
+## Metrics
+
+- **Incremental lift / iROAS from geo holdout** as primary (WorkMagic/Measured — EMPIRICAL, T2).
+- **Halo probes**: branded search volume, direct traffic, retail/Amazon sales by region (Prescient — EMPIRICAL, T2).
+- **New-customer share of CTV-driven orders** (Branch: 86%) (WorkMagic — EMPIRICAL, T2).
+- **Guardrail**: view-through/last-click ROAS flagged as unreliable (5x over / 10x under documented) (Measured — EMPIRICAL, T2).
+- **Timebox**: 3-4 week geo test; quarterly re-test on major spend changes.
+
+## Sources
+
+1. Measured, CTV incremental ROAS report (Aug 2025) | measured.com/press | tier 2 | 2026-08-15
+2. BusinessWire, Measured CTV data (5x/10x over/under-report) | businesswire.com | tier 2 | 2026-08-15
+3. WorkMagic, How to measure connected TV + Branch/Tatari case | workmagic.io | tier 2 | 2026-08-15
+4. Prescient AI, How to measure CTV effectively | prescientai.com | tier 2 | 2026-08-15
+5. Simulmedia, Measure incremental lift in CTV | simulmedia.com | tier 2 | 2026-08-15
+6. Paramount Ads Manager, CTV attribution: keep it simple | adsmanager.paramount.com | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

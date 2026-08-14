@@ -107,6 +107,40 @@ Invoke when:
 
 **Gate:** Pilot launched with pre-registered verdict criteria and a quality-check cadence.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Directive Consulting (B2B X retargeting practice), Coinis (2026 X ads mechanics), Upgrow (X agency), Affiliate World Forums operator reports. Full research: practitioner-intelligence/syntheses/paid-longtail.md. NOTE: X has no famous practitioner layer — evidence is operator/agency content, confidence T3; treat all numbers as directional.
+
+- **X's strongest B2B application is retargeting, not prospecting** (Directive — FRAMEWORK, T2): sequence familiarity (video/image, upper funnel) → retargeting with conversion objective (demos, gated content).
+- **Prospecting must feed the retargeting layer; a retargeting campaign without replenishment loses efficiency fast** (Directive — HEURISTIC, T2).
+- **Self-serve practical floor is ~$20-50/day** for Promoted Posts; below that delivery is patchy (Coinis — HEURISTIC, T3). Trend/Timeline takeovers are 5-6-figure daily minimums, managed service.
+- **Vertical fit**: B2B SaaS, crypto, finance, live events still perform; mass-market ecommerce performs better on Meta/TikTok (Coinis — T3).
+- **Measure against pipeline, not platform metrics** (Directive — FRAMEWORK, T2).
+- **Brand-safety objection is fair but often outdated** — governed adjacency + first-party audiences make X an efficient revenue-influence layer (Directive — OPINION, T2).
+- Curiosity/emotional CTAs roughly double CTR on X placements (Affiliate World operator — T3, community intel).
+
+Decision rules:
+1. IF B2B AND budget < $50/day THEN use X only as a governed retargeting layer fed by other channels — never prospecting (Directive — HEURISTIC, T2).
+2. IF running X for conversions THEN sequence: familiarity campaign first, retargeting campaign second (Directive — FRAMEWORK, T2).
+3. IF measuring X THEN use pipeline (SQLs/demos/qualified traffic), never CTR or engagement (Directive — FRAMEWORK, T2).
+4. IF mass-market ecommerce THEN skip X; the audience profile isn't there (Coinis — T3).
+5. IF considering takeovers THEN require 5-6-figure daily budgets or decline (Coinis — HEURISTIC, T3).
+6. IF evaluating the channel on a <$20/day test THEN discard the result — the campaign never delivered (Coinis — HEURISTIC, T3).
+
+## Metrics
+
+- **Pipeline/qualified leads** as primary (Directive — FRAMEWORK, T2).
+- **Retargeting-layer efficiency**: cost per demo/lead vs other channels, replenishment ratio.
+- **Guardrail**: engagement/CTR metrics are vanity here — do not optimize to them.
+- **Timebox**: 30-60 days with real delivery; if delivery is patchy, raise budget or stop (Coinis — T3).
+
+## Sources
+
+1. Directive Consulting, Twitter Ads Manager: B2B Retargeting on X | directiveconsulting.com | tier 2 | 2026-08-15
+2. Coinis, X Ads (Twitter Ads) 2026 glossary | coinis.com | tier 3 | 2026-08-15
+3. Upgrow, X Ads agency | upgrow.io | tier 3 | 2026-08-15
+4. Affiliate World Forums, Twitter monetization case study | affiliateworldforums.com | tier 5 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

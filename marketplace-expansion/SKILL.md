@@ -136,6 +136,44 @@ Score each marketplace on:
 
 **Gate:** Monthly P&L cadence and exit criteria documented.
 
+## Practitioner Grounding
+
+- **Marketplace Pulse** (Juozas Kaziukenas / Ben Donovan, 2025-2026 data): the "Great Compression" — 165k new Amazon sellers in 2025 (−44% YoY), Amazon now ~60% services/40% retail, advertising "evolved from optional to unavoidable", fees + tariffs squeeze margins, GMV concentrating among capitalized survivors; Walmart marketplace grew ~50% in one quarter (2026) (EMPIRICAL, T1).
+- **Chris McCabe** (ecommerceChris, ex-Amazon Seller Performance): account health is an operational asset — policy violations (review inserts, third-party actions) suspend accounts with funds frozen; audit every customer-facing touchpoint before scaling (EMPIRICAL, T2).
+- **Feedvisor 2022 brand survey** (n=1,000+, Zogby): e-marketplaces = top-priority selling channel for brands; self-reported 7x Amazon ad ROAS (vendor-commissioned, directional) (T3).
+- **Community field intel** (r/FulfillmentByAmazon 143k members, r/AmazonSeller): dominant themes are advice requests and pain/anger (suspensions, reviews, PPC costs); thin listings can win temporarily on price but die without review depth (T3).
+- **Existing marketplace-expansion skill** validated: per-marketplace landed-margin math, 1-2 marketplaces at a time, FBA/FBM per SKU, price-parity rules, offboarding criteria.
+
+## Decision Rules
+
+- IF per-SKU landed margin (price − COGS − referral − fulfillment − realistic ad allocation) is negative on a marketplace THEN kill that SKU there before entry, not after scaling (existing skill; HEURISTIC; T1)
+- IF the business lacks capital reserves to absorb fee increases, tariffs, or margin compression THEN treat marketplace entry as a capital decision, not a channel test (Marketplace Pulse; EMPIRICAL; T1)
+- IF already operating 2+ marketplaces without monthly per-marketplace P&L THEN fix operations before adding more (existing skill; HEURISTIC; T1)
+- IF packaging or customer communications include review-request inserts THEN remove them or document control before launch (McCabe/SellerSprite; EMPIRICAL; T2)
+- IF entering Walmart THEN price competitiveness and fast shipping (WFS or two-day) are prerequisites for visibility, and Walmart Connect ads come only after listings mature (existing skill; Eva Commerce; HEURISTIC; T2)
+- IF a marketplace shows no path to break-even within ~2 quarters of realistic ad allocation THEN cut it (existing skill offboarding rule; HEURISTIC; T2)
+- IF the category is gated/restricted or review depth cannot reach parity THEN deprioritize that marketplace (existing skill; HEURISTIC; T2)
+- IF expansion target is international (e.g., Flipkart/India) THEN entity/tax readiness (GST, brand authorization) gates everything else (existing skill; FACT; T1)
+
+## Metrics
+
+- **Primary**: landed margin % per SKU per marketplace (computed pre-entry, re-measured monthly) (existing skill; T1)
+- **Guardrails**: per-marketplace P&L (monthly), channel-mix share vs core store, review depth vs category parity, account health (seller metrics/ODR), ad allocation % of revenue (10-20% benchmark, Keywords.am)
+- **Cadence**: monthly per-marketplace P&L; quarterly channel-mix review vs the 1-2-marketplace commitment rule; annual re-entry decision for markets previously cut
+- **Stop-and-remeasure**: after fee-schedule changes or tariff shifts, re-run the landed-margin model before reallocating inventory (Marketplace Pulse data shows these hit without warning)
+
+## Sources
+
+1. Marketplace Pulse — Amazon New Seller Numbers Hit Decade Low in 2025 (Great Compression, 165k sellers, 60/40 services/retail) | marketplacepulse.com/articles/amazon-seller-registrations-hit-decade-low-in-2025 | T1 | 2026-08-15
+2. Marketplace Pulse — Walmart Marketplace Growth Reaches Fastest Pace in Years (2026) | marketplacepulse.com | T1 | 2026-08-15
+3. McCabe — ecommerceChris bio + AM/PM Podcast #379 (compliance, suspensions, appeals) | ecommercechris.com; ampmpodcast.com | T1/T2 | 2026-08-15
+4. SellerSprite — Amazon Review Manipulation Suspensions 2026 (insert/velocity cases, $28k frozen funds) | sellersprite.com | T3 | 2026-08-15
+5. Feedvisor — Brands Report Seven Times Return from Amazon Advertising (2022 survey) | businesswire.com | T3 | 2026-08-15
+6. Keywords.am — TACoS sizing and budget benchmarks (10-20% of revenue) | keywords.am/blog/amazon-advertising-budget | T2 | 2026-08-15
+7. Eva Commerce — How to Sell on Walmart Marketplace (2025 guide) + Walmart Connect guide | eva.guru | T3 | 2026-08-15
+8. r/FulfillmentByAmazon community analysis (143k members; themes: suspensions, reviews, PPC costs) | gummysearch.com/r/FulfillmentByAmazon; thehiveindex.com | T3 | 2026-08-15
+9. Synthesis: practitioner-intelligence/syntheses/amazon.md + retail-media.md | T1-T3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes
@@ -146,3 +184,6 @@ Score each marketplace on:
 - No inventory ring-fencing - overselling across channels
 - Chasing every marketplace at once - operational load kills the core store
 - Ignoring marketplace-specific review economics - launching without a review plan
+- Entering marketplaces without capital for fee/tariff shocks - the Great Compression punishes undercapitalized entrants (Marketplace Pulse; T1)
+- Scaling ads or inventory while account-health violations are unresolved - suspension freezes funds and kills the channel (McCabe; SellerSprite; T2)
+- Assuming thin listings can't win - they can, temporarily, on price; without review depth and parity the win evaporates (r/FBA field report; T3)

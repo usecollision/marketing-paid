@@ -111,6 +111,42 @@ Invoke when:
 
 **Gate:** Question-level reporting live; insights feeding content and messaging teams.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Michal Pecánek (Ahrefs, $200K+ Quora spend since 2017), GrowthSpree (B2B SaaS), Quora for Business case studies (Asana, Instapage), Improvado. Full research: practitioner-intelligence/syntheses/paid-longtail.md.
+
+- **Intent profile: real consideration intent, small volume** — question-page context is mid-research intent; Quora is a complementary intent channel, never primary (Pecánek/GrowthSpree — CONSENSUS, T2).
+- **Cost advantage** (Pecánek — EMPIRICAL, T1): 65% lower CPC than comparable Google search; 46% lower CPA; currently 40-50% cheaper CPC than Facebook and 60-95% cheaper than Google search; 2-6x more expensive than GDN but with better intent. "The days of super cheap clicks are long gone."
+- **10-30% impression share is the cost-performance sweet spot** (Pecánek — EMPIRICAL, T1).
+- **Delivery favors higher bids** — running multiple ad sets in one campaign skews delivery to the highest bidder; run ONE ad set per campaign (Pecánek — EMPIRICAL, T1).
+- **Separate campaigns by country and device**; group countries with similar CPCs (Pecánek — HEURISTIC, T1).
+- **Scaling requires broadening** to topics/interests; question retargeting (question-viewers) is the highest-value audience (Pecánek — HEURISTIC, T1).
+- **Measure on qualified pipeline, not clicks** — "question-clickers vary in intent" (GrowthSpree — HEURISTIC, T2).
+- Paid + organic answers combine: answers compound while ads capture; use account managers for UI-missing data (Pecánek — HEURISTIC, T1).
+
+Decision rules:
+1. IF B2B research-heavy category (comparison, "best X", how-to questions) THEN test Quora as a consideration-capture stream at 5-15% of search budget (Pecánek/GrowthSpree — HEURISTIC, T2).
+2. IF running Quora THEN use one ad set per campaign; separate campaigns per country/device (Pecánek — EMPIRICAL, T1).
+3. IF optimizing delivery THEN target 10-30% impression share before raising bids (Pecánek — EMPIRICAL, T1).
+4. IF measuring THEN track cost per qualified lead/pipeline via pixel + CRM — never CTR alone (GrowthSpree/Improvado — HEURISTIC, T2).
+5. IF your niche has little question activity THEN don't force it — Quora needs existing question volume (GrowthSpree — HEURISTIC, T2).
+6. IF scaling beyond question targeting THEN broaden to topics/interests and retarget question-viewers (Pecánek — HEURISTIC, T1).
+
+## Metrics
+
+- **Cost per qualified lead / pipeline contribution** as primary (GrowthSpree — HEURISTIC, T2).
+- **Impression share per campaign** (target 10-30%) as delivery health (Pecánek — EMPIRICAL, T1).
+- **CPC/CPA vs comparable Google search campaigns** as the structural-arbitrage check (Pecánek — EMPIRICAL, T1).
+- **Guardrail**: pixel-less click optimization is "optimizing in the dark" (Improvado — T3).
+- **Timebox**: smaller channel — allow enough volume for a fair read before judging (GrowthSpree — HEURISTIC, T2).
+
+## Sources
+
+1. Michal Pecánek (Ahrefs), Quora Ads: Over $200K Spent | ahrefs.com/blog/quora-ads | tier 1 | 2026-08-15
+2. GrowthSpree, Quora Ads for B2B SaaS | growthspreeofficial.com | tier 2 | 2026-08-15
+3. Quora for Business, B2B advertising + Asana/Instapage cases | business.quora.com | tier 2 | 2026-08-15
+4. Improvado, Quora Ads guide 2026 | improvado.io | tier 3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

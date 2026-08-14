@@ -105,6 +105,47 @@ ASA optimizes against post-install events; nothing else matters until this works
 
 **Gate:** Scaling rules defined; ASA-to-ASO feedback loop documented.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Adapty (Victoria Kharlan), SearchAdsMaven, SEM Nexus, ASO Mobile, Admiral Media, SplitMetrics/AppRadar (Gabriel Kuriata). Full research: practitioner-intelligence/syntheses/paid-longtail.md.
+
+- **Strongest intent in paid media, but the funnel ends at install**: "neither version reports what happens after the download" — post-install revenue is invisible to Apple (Adapty — CONSENSUS, T2).
+- **Basic vs Advanced**: Basic = CPI pricing, one placement, Apple-managed (test/placeholder only); Advanced = CPT + target CPA, all four placements, manual/auto bidding. "Always work in Advanced mode. Every profitable campaign I've analyzed uses Advanced mode exclusively" (Adapty — OPINION/EMPIRICAL, T2).
+- **The Basic trap**: budget decisions on download counts pause your best-subscriber keywords and scale duds — connect revenue attribution first (Adapty — EMPIRICAL, T2).
+- **Keyword-level truth chain**: TTR (ad-query match) → CR (page quality) → CPT → CPA; CPA = CPT/CR; ASA is the only place with direct query→behavior links, usable for ASO (ASO Mobile — FRAMEWORK, T2).
+- **Structure by campaign type** (Discovery/Brand/Competitor/General) with cross-campaign negatives to stop self-competition (ASO Mobile — FRAMEWORK, T2).
+- **Auction is opaque** (second-price); "harder to tell how it works backstage" vs Google/Facebook (Moburst — OPINION, T2).
+- **Organic uplift**: ASA drives organic installs indirectly; evaluating only by CPA misses it; reduce bids when organic rankings climb on a keyword (ASO Mobile — HEURISTIC, T2).
+- **Competitor bidding: top 1-3 defensively only**; beyond that = high CPI, mediocre conversion (SEM Nexus — HEURISTIC, T2).
+- Volume norms: 50-150 keywords at stage 1-2 (300+ large accounts); $5-10k/month minimum for meaningful optimization (Admiral), Advanced the only reasonable choice above ~$10k/mo (AppRadar).
+
+Decision rules:
+1. IF the app has subscription/in-app revenue AND budget >$10k/mo THEN run Advanced only, with revenue attribution (MMP/SKAdNetwork) — never Basic for optimization (Adapty/AppRadar — HEURISTIC, T2).
+2. IF judging keywords THEN evaluate CPT→TTR→CR→CPA per keyword then cohort revenue, never install count alone (ASO Mobile/Adapty — FRAMEWORK, T2).
+3. IF building the account THEN separate Discovery/Brand/Competitor/General campaigns and add cross-campaign negatives (ASO Mobile — FRAMEWORK, T2).
+4. IF bidding on competitors THEN cap at top 1-3, defensive posture (SEM Nexus — HEURISTIC, T2).
+5. IF organic ranking on a keyword is climbing THEN cut the paid bid on it (ASO Mobile — HEURISTIC, T2).
+6. IF a keyword underperforms THEN run a discovery test (high CPT + low CPA target) before killing it (SearchAdsMaven — HEURISTIC, T2).
+7. IF launch-stage with tiny budget THEN Basic as a placeholder is acceptable — but connect revenue attribution before scaling decisions (Adapty/AppRadar — HEURISTIC, T2).
+
+## Metrics
+
+- **Revenue-attributed ROAS per keyword** (MMP/SKAdNetwork) as primary — never installs (Adapty — EMPIRICAL, T2).
+- **TTR / CR / CPT / CPA chain** per keyword for diagnosis (ASO Mobile — FRAMEWORK, T2).
+- **Share of Voice + organic uplift** by keyword (ASO Mobile — HEURISTIC, T2).
+- **Guardrail**: broad-match "let Apple learn" burns budget on irrelevant traffic (Adapty — HEURISTIC, T2); weak product page raises real CPT (ASO Mobile).
+- **Timebox**: 90-day keyword evaluation windows; watch for the two-week-abandonment failure (Adapty).
+
+## Sources
+
+1. Adapty, Apple Search Ads 2026: cost, placements, bidding | adapty.io/blog | tier 2 | 2026-08-15
+2. Adapty, Apple Ads best practices (Advanced-only) | adapty.io/blog/apple-ads-best-practices | tier 2 | 2026-08-15
+3. SearchAdsMaven, Five mistakes on Apple Search Ads | searchadsmaven.com | tier 2 | 2026-08-15
+4. SEM Nexus, ASA keyword bidding strategy | semnexus.com | tier 2 | 2026-08-15
+5. ASO Mobile, Apple Search Ads and ASO | asomobile.net | tier 2 | 2026-08-15
+6. AppRadar/SplitMetrics, ASA Advanced guide | appradar.com | tier 2 | 2026-08-15
+7. Admiral Media, ASA benchmarks | admiral.media | tier 3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

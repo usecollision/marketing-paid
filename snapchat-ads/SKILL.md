@@ -114,6 +114,44 @@ Invoke when:
 
 **Gate:** Dashboard built; creative refresh cadence scheduled.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Common Thread Collective (Snapchat-published Quay Sunglasses case + 4-brand portfolio), Measured (incrementality vendor), Affinco (small-budget benchmarks), Snap Ads API docs. Full research: practitioner-intelligence/syntheses/paid-longtail.md.
+
+- **The open window: underpriced Gen-Z CPMs + mature Dynamic Product Ads** — "has a shelf life; once enough brands figure out the playbook, CPMs normalize" (CTC — OPINION/EMPIRICAL, T2).
+- **DPA outperforms static**: Quay BFCM 2025: +40% ROAS vs non-dynamic, 2.86x CTR at 67% lower CPC, 131% lower cost per purchase; portfolio 8.7x blended ROAS (range 3.6-12.8x by vertical) (CTC/Snap — EMPIRICAL, T2).
+- **Most brands fail by running Snap like a smaller Meta** — same creative, bidding, structure "almost never works"; Snap rewards native, product-forward content (CTC — CONSENSUS, T2).
+- **Warm-up is mandatory**: ramp pre-peak so the algorithm arrives with context; cold Q4 launches underperform (CTC — HEURISTIC, T2).
+- **Small budgets: broad targeting + auto-bid beats over-segmentation**; min daily spend ~$5 (Affinco — HEURISTIC, T3).
+- **Attribution: 28-day click / 1-day view** windows; view-through inflates — judge click-through for small budgets (Affinco — HEURISTIC, T3).
+- **AR Lenses are a brand format, not direct response**: billed per impression (second-price auction, swipe = impression), play-time/shares are the KPIs; premium lenses cost £450k+/day (Snap docs/Affinco — FRAMEWORK, T2).
+- Third-party validation: median incremental ROAS on Snapchat grew 104% between Measured test periods (Snap Q1 2026 — T2).
+
+Decision rules:
+1. IF DTC fashion/beauty/accessories/lifestyle targeting Gen Z THEN test Snap with DPAs + native creative before writing it off (CTC — EMPIRICAL, T2).
+2. IF launching Snap THEN warm up 3-6 weeks pre-peak; never cold-launch in Q4 (CTC — HEURISTIC, T2).
+3. IF budget < $50/day THEN use broad targeting + auto-bid, one format at a time (Affinco — HEURISTIC, T3).
+4. IF running direct response THEN use Dynamic Catalog Ads and measure click-through conversions (28-day), not view-through (CTC/Affinco — HEURISTIC, T2).
+5. IF buying AR Lenses THEN fund from the brand/reach pool with play-time + shares + recall KPIs, never CPA targets (Snap docs/Affinco — FRAMEWORK, T2).
+6. IF Snap ROAS < 3x after warm-up and native creative THEN the approach failed — fix approach, not budget (CTC — EMPIRICAL, T2).
+
+## Metrics
+
+- **DPA click-through ROAS (28-day)** as primary (CTC — HEURISTIC, T2).
+- **Blended portfolio ROAS** 3.6-12.8x by vertical as sanity band (CTC — EMPIRICAL, T2).
+- **Warm-up completion + learning-phase stability** before scaling.
+- **Guardrail**: view-through conversions flagged as inflated; post-click landing page quality as conversion gate (Funnelish — T3).
+- **Timebox**: verdict after warm-up + 4-6 weeks steady state.
+
+## Sources
+
+1. Common Thread Collective, Snapchat wrote a case study about our work (Quay) | commonthreadco.com | tier 1 | 2026-08-15
+2. Snap for Business, Quay Sunglasses success story | forbusiness.snapchat.com | tier 2 | 2026-08-15
+3. Snap Developers, AR Lenses Ads API docs | developers.snap.com | tier 1 | 2026-08-15
+4. Affinco, Small Budget Snapchat Ads | affinco.com | tier 3 | 2026-08-15
+5. Funnelish, Snapchat Ads worth it in 2026? | funnelish.com | tier 3 | 2026-08-15
+6. Snap Q1 2026 earnings (Measured iROAS +104%) | finance.yahoo.com | tier 2 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes
