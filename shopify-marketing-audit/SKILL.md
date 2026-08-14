@@ -136,6 +136,35 @@ Prioritize by revenue impact:
 
 **Gate:** Prioritized roadmap with estimated revenue impact per initiative.
 
+## Practitioner Grounding & Decision Rules
+
+Named grounding: Nik Sharma (organic-first, milestones), Andrew Youderian (eCommerceFuel P&L data), Ezra Firestone (MER/golden ratio), Kurt Elster (Shopify ops). Confidence: T1 = verified primary; T2 = well-known; T3 = caution.
+
+- IF gross margin < ~50% THEN fix COGS/pricing before scaling ad spend — paid winners have fat margins (63.7%) and lean overhead (16.6%), not the best ROAS (2.5x vs 4.0x) (Youderian, EMPIRICAL, T1).
+- IF MER (blended revenue ÷ total ad spend) is below the target implied by margin THEN cut spend until unit economics improve — MER is the macro health number; ROAS is only for campaign tuning (Firestone/Youderian, FRAMEWORK, T2).
+- IF the first ~1,000 customers weren't earned organically THEN re-anchor messaging via organic content before scaling paid — paid amplifies what already works (Sharma, HEURISTIC, T1).
+- IF paid revenue hasn't reached the ~$5k/day milestone THEN keep paid experimental, not scaled (Sharma, HEURISTIC, T1).
+- IF CPM is low but CTR is low THEN the problem is creative/message, not the audience (Sharma, TACTIC, T1).
+- IF repeat purchase rate is low (<~20-25%) THEN invest in email/retention backend before acquisition — acquisition-only economics never pay back (Firestone, HEURISTIC, T3).
+- IF contribution margin per order < 0 THEN pause paid entirely (Youderian, FACT, T1).
+- IF a channel's ROAS is high but blended MER is flat THEN spend is shifting, not growing — check attribution/incrementality (MER logic, T2).
+
+## Metrics
+
+- Primary: MER (30/90-day blended), per-channel ROAS, gross margin %, contribution margin, repeat purchase rate, CAC payback.
+- Guardrails: AOV trends, email revenue share, refund/return rate, cash bleed in ops (Sharma's "invisible cash bleeds").
+- Timebox: monthly MER review; stop scaling any channel whose marginal MER contribution < blended MER; pause paid if contribution margin < 0 for 2 months.
+
+## Sources
+
+1. Andrew Youderian — eComFuel Trends Report (300 stores, $3.5B) | ecommercefuel.com/ecommerce-trends | T1 | 2026-08-15
+2. Nik Sharma — The Marketing Playbook from "The DTC Guy" | shopify.com/blog/nik-sharma-marketing | T1 | 2026-08-15
+3. Shopify — Marketing Efficiency Ratio guide | shopify.com/blog/marketing-efficiency-ratio | T2 | 2026-08-15
+4. Ezra Firestone — Traffic MBA (golden ratio, dollar-in-dollar-out) | cldshare.com/course/ezra-firestone-traffic-mba | T2 | 2026-08-15
+5. Kurt Elster — eCommerceFuel podcast / Ethercycle audits | T2 | 2026-08-15
+
+Full synthesis: practitioner-intelligence/syntheses/dtc.md
+
 ## Evaluation & QA
 
 ### Common Failure Modes
