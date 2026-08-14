@@ -22,7 +22,8 @@ outputs:
   - testing_plan
 related_skills:
   - meta-ads
-  - google-ads-audit
+  - google-ads
+  - media-planning
   - marketing-paid/ad-creative-generator
   - marketing-optimize/metrics-framework
   - marketing-optimize/attribution-model-selection

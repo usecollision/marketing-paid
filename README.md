@@ -13,6 +13,14 @@ Merged from: `marketing-paid` + `marketing-ad-creative` + `marketing-ecommerce` 
 | [ad-creative-generator](ad-creative-generator/SKILL.md) | ad-creative | Generate high-performing ad creative concepts across angles, formats, and platforms. |
 | [hook-frameworks](hook-frameworks/SKILL.md) | ad-creative | Write scroll-stopping hooks for video ads, static ads, and organic content. |
 | [shopify-marketing-audit](shopify-marketing-audit/SKILL.md) | ecommerce | Audit a Shopify store's marketing setup for conversion, retention, and growth opportunities. |
+| [google-ads](google-ads/SKILL.md) | paid | Build, audit, and optimize Google Ads accounts across Search, Shopping, Performance Max, Display, and YouTube. |
+| [linkedin-ads](linkedin-ads/SKILL.md) | paid | Plan, launch, and optimize LinkedIn Ads for B2B lead generation and account-based marketing. |
+| [tiktok-ads](tiktok-ads/SKILL.md) | paid | Launch and scale TikTok Ads with a creative-first system for ecommerce and consumer brands. |
+| [amazon-ads](amazon-ads/SKILL.md) | paid | Structure and optimize Amazon Ads for marketplace growth - Sponsored Products, Brands, Display, and DSP. |
+| [reddit-ads](reddit-ads/SKILL.md) | paid | Plan and run Reddit ads with community-native creative, subreddit targeting, and karma-aware copy. |
+| [media-planning](media-planning/SKILL.md) | paid | Allocate a paid media budget across channels with channel mix design, budget math, and incrementality checks. |
+| [creative-testing](creative-testing/SKILL.md) | ad-creative | Run structured creative tests with volume planning, scoring, fatigue detection, and kill-scale rules. |
+| [performance-reporting](performance-reporting/SKILL.md) | paid | Build cross-platform paid reporting with blended CAC and ROAS, MER, rollup structure, and anomaly diagnosis. |
 
 ## Depends on
 - `marketing-core` (context, ontology)
@@ -25,4 +33,3 @@ Merged from: `marketing-paid` + `marketing-ad-creative` + `marketing-ecommerce` 
 ## Roadmap refs (referenced but not yet built)
 - `marketing-optimize/analytics-setup` (referenced by meta-ads)
 - `marketing-optimize/landing-page-optimization` (referenced by meta-ads)
-- `google-ads-audit` (referenced bare by paid-strategy — no Google Ads skill exists yet)
