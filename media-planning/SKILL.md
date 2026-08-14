@@ -117,6 +117,45 @@ For each channel, map: funnel stage, audience, job to be done, KPI, and its hand
 
 **Gate:** Milestone calendar set with kill/scale/reallocation criteria written down.
 
+## Practitioner Grounding
+
+This skill's decision layer is built from the IPA effectiveness research (Binet & Field), Ehrenberg-Bass laws (Byron Sharp), two-speed planning (Mark Ritson), ad-economics/incrementality (Eric Seufert), and lean-team budget practice (Spike, Stackmatix). Full research: practitioner-intelligence/syntheses/paid-strategy.md.
+
+- **Binet & Field (T1)**: no universal brand:activation ratio — aggregate optimum ~62:38; **rational/high-consideration categories need MORE brand**, online-first businesses need MORE brand; long-term brand ~2x profit of short-term-only; whole-market targeting ~3x of existing-customer targeting.
+- **Byron Sharp (T1)**: growth comes from penetration — the brand stream must reach category buyers broadly; never think small/low-reach even on limited budgets; double jeopardy means loyalty work doesn't grow brands.
+- **Mark Ritson (T1)**: plan in 12-month increments: diagnosis → strategy → tactics. Segmentation = market map; targeting = strategy. Brand stream = whole market, activation stream = selected segments. Hold the split for years.
+- **Eric Seufert (T1)**: allocate against incremental contribution (iROAS/MMM), not attributed ROAS; macro measurement (MMM/MER) monthly/quarterly, micro optimization weekly; payback window by cash position.
+- **Spike (T2)**: lean-team split — 60-70% primary channel / 20-30% compounding / ≤10% experiments, all above minimum viable spend thresholds; "underfunded tests are the #1 reason channel strategies fail."
+
+## Decision Rules
+
+1. IF budget < minimum viable spend for the medium THEN do not spread — one primary channel (usually search or Meta), and shift the brand job to cheap brand assets instead of paid reach (Spike; Sharp — HEURISTIC/EMPIRICAL, T2/T1).
+2. IF designing the mix THEN allocate by expected conversion counts per channel per week, not dollars — a channel needs enough conversions to optimize, not enough dollars to spend (Spike — HEURISTIC, T2).
+3. IF the business is established with 3+ year payback tolerance THEN set brand:activation near 62:38; IF high-consideration/rational category or online-first THEN raise brand share; IF low-consideration/emotional THEN lower (Binet & Field — EMPIRICAL, T1).
+4. IF the brand stream is being planned THEN target whole-market/category buyers with reach, never existing-customer segments (Sharp; Binet & Field — EMPIRICAL, T1).
+5. IF a channel fails the CAC ceiling after sufficient data (see creative-testing volume thresholds) THEN kill; IF MER holds while spend rises THEN keep scaling; IF blended CPA rises as spend grows THEN reallocate before adding net-new budget (media-planning heuristics + Seufert — T1/T2).
+6. IF a scaling channel has no incrementality evidence THEN test it (geo-lift or ghost ads) before budget increases; brand search and retargeting are the two channels most likely to be over-credited (Seufert; AdSights — EMPIRICAL, T1/T2).
+7. IF reallocating THEN move budget in 20-30% steps, never wholesale flips; review split annually against stage, not quarterly on ROI swings (Ritson; Francois — HEURISTIC, T1/T2).
+8. IF MER drifts >10% between periods THEN investigate overlap/retargeting inflation before trusting platform reports (AdMaxxer — EMPIRICAL vendor, T2).
+
+## Metrics
+
+- **MER at P&L level**: total revenue ÷ total ad spend; target ≈ 1.3 ÷ contribution margin (AdMaxxer — EMPIRICAL vendor, T2). Primary budget-health metric.
+- **Platform ROAS**: creative/optimization decisions only — overlap inflates it 1.4-1.8x vs true MER (AdMaxxer — T2).
+- **iROAS**: budget decisions. Directional benchmarks: brand search iROAS ~0.10-0.25x reported, retargeting ~0.20-0.35x (AdSights/Metricuno — T2).
+- **Brand stream**: mental availability / distinctive asset recognition, share of search, branded query volume — never dollar ROI (Ritson — FRAMEWORK, T1).
+- **Incrementality test minimums**: 5-15k users per arm (digital lift), 6-8 matched geos with pre-test baseline (geo) (AdSights/Metricuno — EMPIRICAL vendor, T2).
+
+## Sources
+
+1. Binet & Field, *Effectiveness in Context* (2022), IPA | downloads.ctfassets.net | tier 1 | 2026-08-14
+2. Binet & Field, *The Long and the Short of It* (2013), Thinkbox summary | thinkbox.tv | tier 1 | 2026-08-14
+3. Byron Sharp / Ehrenberg-Bass, "Mental availability is not awareness"; "What causes the Double Jeopardy law?" | marketingscience.info | tier 1 | 2026-08-14
+4. Mark Ritson, "Planning for marketing planning: 14 steps to an effective presentation"; "Can you achieve long and short at the same time? Usually, no" | marketingweek.com | tier 1 | 2026-08-14
+5. Eric Seufert, "Media mix models are the future of mobile advertising" | mobiledevmemo.com | tier 1 | 2026-08-14
+6. AdMaxxer, "Blended MER vs ROAS: When Each Breaks" | admaxxer.com | tier 3 (vendor) | 2026-08-14
+7. AdSights / Metricuno incrementality guides | vendor blogs | tier 3 | 2026-08-14
+
 ## Evaluation & QA
 
 ### Common Failure Modes

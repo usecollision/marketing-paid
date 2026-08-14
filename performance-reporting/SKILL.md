@@ -111,6 +111,39 @@ When blended CPA/ROAS moves beyond the threshold (set X% per business), run the 
 
 **Gate:** Action protocol written; anomaly log reviewed monthly.
 
+## Practitioner Grounding
+
+The measurement hierarchy here follows Eric Seufert (ad economics/incrementality), AdMaxxer/AdSights/Metricuno (MER vs ROAS diagnostics), and the IPA effectiveness researchers (Binet & Field). Full research: practitioner-intelligence/syntheses/paid-strategy.md.
+
+- **Seufert (T1)**: platform attribution is a "veneer of control" — multi-channel spend guarantees redundant spend. Budget decisions belong on incremental contribution (iROAS/MMM); macro (MMM/MER) and micro (campaign) measurement run on separate cadences.
+- **AdMaxxer (T2, vendor)**: sum of platform ROAS typically runs 1.4-1.8x true MER — the "overlap tax". Target MER ≈ 1.3 ÷ contribution margin. A >35% gap between summed platform ROAS and MER means platform numbers are fiction.
+- **AdSights/Metricuno (T2, vendor)**: iROAS divergence benchmarks — brand search reports 10x+ but true iROAS is 1.5-3x (incrementality factor ~0.10-0.25x reported); retargeting ~0.20-0.35x. Creative A/B tests are not incrementality tests.
+
+## Decision Rules
+
+1. IF platform ROAS and MER diverge by >35% (overlap tax) THEN treat platform ROAS as inflated — report both, allocate on MER/iROAS, and schedule an incrementality test on the diverging channels (AdMaxxer — EMPIRICAL vendor, T2).
+2. IF deciding whether to cut or scale a prospecting channel THEN never use reported ROAS alone — prospecting at 1.3x reported ROAS can feed 4.5x blended MER through downstream conversion; validate with iROAS first (AdSights — EMPIRICAL vendor, T2).
+3. IF MER holds while spend rises THEN scaling is real; IF blended CPA rises while MER holds THEN the mix is shifting (retargeting-heavy) — rebalance, don't panic (Seufert — FRAMEWORK, T1).
+4. IF a metric anomaly appears THEN run the Step 5 checklist in order — tracking first (most common cause), spend/mix, conversion path, creative, market, audience — before any action (performance-reporting practice, T1).
+5. IF reporting to executives THEN lead with MER and contribution margin, not platform ROAS — platform numbers without the overlap check mislead allocation (Seufert; AdMaxxer — T1/T2).
+6. IF a brand-search or retargeting channel claims high ROAS THEN assume over-crediting until tested: brand search iROAS ~0.10-0.25x reported, retargeting ~0.20-0.35x (AdSights/Metricuno — EMPIRICAL vendor, T2).
+
+## Metrics
+
+- **MER (the truth metric)**: total business revenue ÷ total ad spend. Target ≈ 1.3 ÷ contribution margin. Attribution-independent — this is the P&L-level number (AdMaxxer — T2).
+- **Blended ROAS**: ad-attributed revenue ÷ spend — usable for trend, not for allocation.
+- **Platform ROAS**: creative/optimization decisions only (overlap-inflated for allocation).
+- **Overlap tax** = sum(platform ROAS × platform spend) ÷ total revenue − 1. >35% = platform fiction (AdMaxxer — T2).
+- **iROAS** (when incrementality data exists): the only allocation-grade ROAS.
+- **Qualified-cost metrics** (nCPA, cost per MQL) where lead quality varies (existing practice).
+
+## Sources
+
+1. Eric Seufert, "Media mix models are the future of mobile advertising"; "The emerging marketing economist" | mobiledevmemo.com | tier 1 | 2026-08-14
+2. AdMaxxer, "Blended MER vs ROAS: When Each Breaks" | admaxxer.com | tier 3 (vendor) | 2026-08-14
+3. AdSights / Metricuno incrementality guides (iROAS benchmarks, ghost ads, test design) | vendor blogs | tier 3 | 2026-08-14
+4. Binet & Field, *Effectiveness in Context* (2022), IPA | downloads.ctfassets.net | tier 1 | 2026-08-14
+
 ## Evaluation & QA
 
 ### Common Failure Modes
