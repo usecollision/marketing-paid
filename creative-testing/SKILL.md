@@ -115,6 +115,34 @@ Score every creative on a weighted scorecard (set weights per business):
 
 **Gate:** Insight library maintained; every test closes with an insight entry.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Dara Denney (creative testing/fatigue), Nick Shackelford (creative systems), Chase Chappell (UGC), plus the paid-strategy incrementality layer. Full research: practitioner-intelligence/syntheses/paid-strategy.md.
+
+- **Creative is the highest-leverage paid variable** (Denney/Shackelford — HEURISTIC, T1): in 2026, testing creative volume and angles beats refining targeting.
+- **Fatigue precedes CPA degradation** (Denney — EMPIRICAL, T1): frequency + same-creative saturation are leading indicators — refresh before the CPA alarm.
+- **Creative A/B tests are not incrementality tests** (AdSights — EMPIRICAL, T2): a creative test measures relative creative performance, not channel incrementality — never claim lift.
+
+Decision rules:
+1. IF an ad set has <3-5 distinct creatives THEN the test is underpowered on creative — add supply before judging winners (Shackelford — HEURISTIC, T1).
+2. IF frequency exceeds ~2-3/week THEN rotate creative — fatigue precedes degradation (Denney — EMPIRICAL, T1).
+3. IF judging a creative winner THEN require sufficient volume per cell (see creative-testing volume thresholds in the skill) and check downstream quality (refunds, AOV) — a creative that converts junk is a loser (Denney — EMPIRICAL, T1).
+4. IF reporting creative test results THEN label them as creative performance, never incrementality (AdSights — EMPIRICAL, T2).
+5. IF testing THEN isolate one variable per cell (hook vs offer vs format), never two (synthesis — HEURISTIC, T1).
+
+## Metrics
+
+- **Creative supply + fatigue signals** (Denney — EMPIRICAL, T1).
+- **Volume-per-cell sufficiency** before verdicts (existing thresholds).
+- **Downstream quality** (refunds, AOV, retention) per creative winner (Denney — EMPIRICAL, T1).
+
+## Sources
+
+1. Dara Denney, creative testing + fatigue | her podcast/essays | tier 1 | 2026-08-15
+2. Nick Shackelford, creative systems (Structured Agency) | tier 2 | 2026-08-15
+3. Chase Chappell, UGC creative practice | his essays | tier 2 | 2026-08-15
+4. AdSights, creative tests ≠ incrementality | tier 3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

@@ -152,6 +152,35 @@ Daily/weekly optimization routine:
 
 **Gate:** Optimization schedule defined with specific decision triggers.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Jon Loomer (Meta ads deep practice), Nick Shackelford (creative-led structure), Dara Denney (creative fatigue), Ezra Firestone (DTC Meta). Full research: practitioner-intelligence/syntheses/paid-strategy.md.
+
+- **Creative iteration velocity > targeting optimization** (Shackelford/Denney — HEURISTIC, T1): in the 2020s Meta, account structure and audiences matter less than creative supply; the account that feeds the algorithm more distinct creatives wins.
+- **Fatigue is the silent killer** (Denney — EMPIRICAL, T1): frequency creep + same-creative saturation degrade results before CPA alarms fire; refresh on fatigue signals, not dates alone.
+- **Platform ROAS is over-credited** (Seufert/AdMaxxer — EMPIRICAL, T1): Meta-reported ROAS includes overlap and last-click bias — validate with MER/iROAS before budget decisions (see performance-reporting).
+
+Decision rules:
+1. IF creative volume is low (1-3 per ad set) THEN add creative supply before touching targeting — creative is the highest-leverage variable (Shackelford — HEURISTIC, T1).
+2. IF frequency exceeds ~2-3/week on a creative THEN prepare refresh — fatigue precedes CPA degradation (Denney — EMPIRICAL, T1).
+3. IF scaling THEN increase budgets 20-30% steps, never more — algorithm shock resets learning (existing + Shackelford — HEURISTIC, T1).
+4. IF a campaign wins on platform ROAS BUT MER is flat THEN treat the win as attribution shift, not growth (Seufert — EMPIRICAL, T1).
+5. IF launching new structure THEN keep the test simple: one variable per ad set (audience vs creative vs placement), never all three (Loomer — FRAMEWORK, T1).
+
+## Metrics
+
+- **Creative supply rate** (new distinct creatives per ad set per week) (Shackelford — HEURISTIC, T1).
+- **Frequency + fatigue signals** per creative (Denney — EMPIRICAL, T1).
+- **MER / iROAS** as the truth layer alongside platform ROAS (Seufert — EMPIRICAL, T1).
+
+## Sources
+
+1. Jon Loomer, Meta ads deep practice | jonloomer.com | tier 1 | 2026-08-15
+2. Nick Shackelford, creative-led account structure | Structured Agency | tier 2 | 2026-08-15
+3. Dara Denney, creative fatigue + testing cadence | her podcast/essays | tier 1 | 2026-08-15
+4. Eric Seufert, attribution/incrementality | mobiledevmemo.com | tier 1 | 2026-08-15
+5. AdMaxxer, MER vs ROAS | admaxxer.com | tier 3 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

@@ -145,6 +145,35 @@ Quality Score (QS) is a diagnostic, not a KPI. Improve each component:
 
 **Gate:** Cadence calendar set with an owner per task; audit produced a ranked fix list.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Navah Hopkins, Kirk Williams (ZATO), Brad Geddes, Frederick Vallaeys (Optmyzr), Melissa Mackey. Full research: practitioner-intelligence/syntheses/paid-strategy.md.
+
+- **Account structure still matters; SKAGs are dead** (Williams/Geddes — HEURISTIC, T1): structure around intent tiers (broad → phrase → exact staged), not one-keyword-per-ad-group.
+- **PMax needs feed + creative inputs to work** (Navah/Vallaeys — HEURISTIC, T1): PMax without asset/feed quality is a black box with no inputs.
+- **Platform ROAS includes brand and overlap** (Seufert — EMPIRICAL, T1): brand search iROAS is typically 0.10-0.25x reported — segment brand vs non-brand before judging account health.
+
+Decision rules:
+1. IF a search account is one-keyword-per-ad-group THEN restructure to intent tiers before optimizing bids (Geddes — HEURISTIC, T1).
+2. IF PMax is running without strong feed + asset coverage THEN fix feed/creatives first — PMax amplifies inputs (Navah/Vallaeys — HEURISTIC, T1).
+3. IF evaluating account ROAS THEN split brand vs non-brand — blended numbers hide non-brand weakness (Seufert — EMPIRICAL, T1).
+4. IF a new account THEN start with manual/keyword-based structure and staged match types; let automation in after baseline data exists (Williams — HEURISTIC, T1).
+5. IF a search campaign's CPA fails after sufficient data THEN kill, don't bid-bump — underfunded tests and bid-chasing are the top failure modes (Williams — HEURISTIC, T1).
+
+## Metrics
+
+- **Brand vs non-brand split** of spend/ROAS (Seufert — EMPIRICAL, T1).
+- **Feed/asset health** before PMax scale (Vallaeys — HEURISTIC, T1).
+- **iROAS on non-brand** (see performance-reporting) (Seufert — EMPIRICAL, T1).
+
+## Sources
+
+1. Kirk Williams, PPC strategy (ZATO) | zato.marketing | tier 1 | 2026-08-15
+2. Brad Geddes, *Advanced Google AdWords* | tier 1 | 2026-08-15
+3. Navah Hopkins, search ads + measurement | her columns | tier 1 | 2026-08-15
+4. Frederick Vallaeys, PMax/automation (Optmyzr) | optmyzr.com | tier 2 | 2026-08-15
+5. Eric Seufert, incrementality | mobiledevmemo.com | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

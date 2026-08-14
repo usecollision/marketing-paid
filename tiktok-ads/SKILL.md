@@ -120,6 +120,31 @@ TikTok is a creative marketplace - the asset matters more than targeting:
 
 **Gate:** Refresh cadence scheduled; kill/iterate rules pre-registered.
 
+## Practitioner Grounding & Decision Rules
+
+Built from Dara Denney, Chase Chappell, Nik Sharma (TikTok/DTC practice). Full research: practitioner-intelligence/syntheses/paid-strategy.md.
+
+- **TikTok is creative-supply-constrained** (Denney/Chappell — HEURISTIC, T1): you need volume of distinct creatives (Spark/UGC native), not iteration on one.
+- **Native beats polished** (Chappell — EMPIRICAL, T1): creator-native formats (Spark Ads, UGC) outperform studio polish for most DTC offers; the feed punishes ad-ness.
+
+Decision rules:
+1. IF creative supply is <5 distinct native-style creatives per test cell THEN add supply before judging (Denney/Chappell — HEURISTIC, T1).
+2. IF using studio/static creative THEN test Spark/UGC variants — native wins most offers (Chappell — EMPIRICAL, T1).
+3. IF frequency rises toward ~2-3/week THEN rotate — fatigue on TikTok is faster than Meta (Denney — EMPIRICAL, T1).
+4. IF measuring TikTok results THEN use MER/contribution, not platform-reported ROAS alone (Seufert — EMPIRICAL, T1).
+
+## Metrics
+
+- **Creative supply + native share** per campaign (Chappell — HEURISTIC, T1).
+- **Fatigue signals** (frequency, CTR decay) (Denney — EMPIRICAL, T1).
+- **MER/contribution** as the truth layer (Seufert — EMPIRICAL, T1).
+
+## Sources
+
+1. Dara Denney, TikTok creative practice | her podcast/essays | tier 1 | 2026-08-15
+2. Chase Chappell, TikTok ads + UGC | his essays | tier 2 | 2026-08-15
+3. Eric Seufert, attribution | mobiledevmemo.com | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes

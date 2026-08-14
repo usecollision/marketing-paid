@@ -125,6 +125,29 @@ Separate by objective and audience tier:
 
 **Gate:** Platform-to-CRM reconciliation process running; deal-stage metrics per campaign.
 
+## Practitioner Grounding & Decision Rules
+
+Built from AJ Wilcox (B2Linked), Richard van der Blom (LinkedIn data). Full research: practitioner-intelligence/syntheses/paid-strategy.md.
+
+- **LinkedIn is B2B ABM's best precision channel — at a price premium** (Wilcox — FRAMEWORK, T1): justify the CPM with ICP precision; it fails when audiences are broad.
+- **Data decays; refresh audience lists** (van der Blom — EMPIRICAL, T1): LinkedIn match rates and intent data degrade; company lists need quarterly refresh.
+
+Decision rules:
+1. IF the target list is broad (industry-wide) THEN LinkedIn is likely the wrong buy — precision is the only premium justification (Wilcox — FRAMEWORK, T1).
+2. IF running ABM THEN use company lists + job-title overlays; refresh lists quarterly (van der Blom — EMPIRICAL, T1).
+3. IF measuring success THEN use pipeline-influenced and MQL quality, not CTR — LinkedIn clicks convert poorly on average but the good ones close (Wilcox — HEURISTIC, T1).
+4. IF creative is static (no Sponsored Content variety) THEN add message variety — LinkedIn rewards fresh angles and penalizes repetition (van der Blom — EMPIRICAL, T1).
+
+## Metrics
+
+- **MQL/pipeline per ICP account** — the ABM truth layer (Wilcox — FRAMEWORK, T1).
+- **List match rate + refresh cadence** (van der Blom — EMPIRICAL, T1).
+
+## Sources
+
+1. AJ Wilcox, LinkedIn Ads practice (B2Linked) | b2linked.com | tier 1 | 2026-08-15
+2. Richard van der Blom, LinkedIn algorithm/ad data | his research | tier 1 | 2026-08-15
+
 ## Evaluation & QA
 
 ### Common Failure Modes
